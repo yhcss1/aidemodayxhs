@@ -508,7 +508,8 @@ function cardHTML(d) {
     .map(k => `<span class="keyword-tag">${esc(k.trim())}</span>`).join('');
   const summary = d.ext && d.ext.ext_desc ? d.ext.ext_desc : (d.summary || '');
 
-  const excBadge = d.ext ? '<div class="exclusive-badge">独家内容</div>' : '';
+  const hasExtContent = d.ext && (d.ext.ext_desc || d.ext.ext_title);
+  const excBadge = hasExtContent ? '<div class="exclusive-badge">独家内容</div>' : '';
 
   // Parse demo links for card display
   let cardLinksHTML = '';
@@ -568,7 +569,7 @@ function openModal(id) {
     ? `<div class="modal-gallery">${d.media_local.map(f => `<img src="media/${f}" alt="" loading="lazy" onerror="this.style.display='none'">`).join('')}</div>` : '';
 
   let extHTML = '';
-  if (d.ext) {
+  if (d.ext && (d.ext.ext_desc || d.ext.ext_title)) {
     const e = d.ext;
     let featHTML = '';
     if (e.ext_features && e.ext_features.length) {
