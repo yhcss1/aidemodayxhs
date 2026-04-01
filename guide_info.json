@@ -1,0 +1,50 @@
+{
+  "event": "AI Demo Day",
+  "organizer": "小红书 (Xiaohongshu / RED)",
+  "departments": "战略 / 投资 / 用户研究",
+  "motto": "Stop talking, start shipping. We move fast. Evolution waits for no one.",
+  "event_date": "2026-04-01",
+  "location": "上海 & 北京",
+  "tracks": {
+    "optimizer": {
+      "emoji": "⚡",
+      "name": "Optimizer",
+      "participation": "个人参赛",
+      "description": "工作流重构与效率提升，展示AI技能与工作流"
+    },
+    "builder": {
+      "emoji": "🛠️",
+      "name": "Builder",
+      "participation": "≤2人",
+      "description": "设计小红书功能或具有小红书DNA的独立产品，提交产品demo或可上线概念"
+    }
+  },
+  "schedule": [
+    {"time": "13:30-13:45", "activity": "开场致辞与规则说明"},
+    {"time": "13:45-16:15", "activity": "Optimizer赛道演示 (每项目5分钟demo + 2分钟Q&A)"},
+    {"time": "16:15-16:30", "activity": "茶歇"},
+    {"time": "16:30-19:00", "activity": "Builder赛道演示"},
+    {"time": "19:00-19:10", "activity": "休息"},
+    {"time": "19:10-19:45", "activity": "颁奖典礼"}
+  ],
+  "timeline": {
+    "registration_opens": "2026-03-26",
+    "registration_closes": "2026-03-30 12:00",
+    "results_announced": "2026-03-31 20:00",
+    "event_date": "2026-04-01 13:30"
+  },
+  "awards": {
+    "best_demo": {
+      "categories": ["⚡ Optimizer", "🛠️ Builder"],
+      "votes_per_category": 3
+    },
+    "special_awards": [
+      {"name": "🧠 最脑洞", "description": "Most Creative"},
+      {"name": "🔥 最感染力", "description": "Most Engaging"},
+      {"name": "💎 最实用", "description": "Most Practical"}
+    ],
+    "special_votes": 1,
+    "rules": "投后不可修改"
+  },
+  "presentation_format": "每个demo 5分钟演示 + 2分钟Q&A，一个观众提问（通过论坛提交）+ 一个评委提问"
+}

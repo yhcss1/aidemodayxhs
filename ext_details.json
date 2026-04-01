@@ -1,0 +1,528 @@
+{
+  "181": {
+    "ext_title": "大音乐家 - 你可以成为编曲作者",
+    "ext_desc": "浏览器键盘节奏游戏，四轨输入(D/F/J/K)，支持长按音符、Taiko模式与Highway模式。React 19 + FastAPI，含 Demucs 音轨分离、Whisper 歌词、basic-pitch 旋律检测。",
+    "ext_links": [
+      "https://the-musican.pages.dev/"
+    ],
+    "ext_exclusive": true,
+    "competitors": [
+      {
+        "name": "bemusic/bemuse",
+        "url": "https://github.com/bemusic/bemuse",
+        "stars": "1.2k",
+        "desc": "浏览器节奏游戏，7键键盘模式"
+      }
+    ]
+  },
+  "177": {
+    "ext_title": "小鹿 Apple Watch 全监测",
+    "ext_desc": "Apple Watch 数据全接入：运动/睡眠/心率/步数/HRV → 每天早8点自动推送健康报告。还支持一键订会议室、存待读链接、记饮食备忘。数据流: Apple Watch → iPhone → GitHub私有仓库 → OpenClaw AI → 小红书 Hi 推送。",
+    "ext_features": [
+      "健康数据追踪(跑步5.2km/睡眠7h23m/静息心率62bpm)",
+      "每日推送报告",
+      "状态感知低能量预警",
+      "自然语言订会议室(10秒)",
+      "待读清单自动标签",
+      "专属记忆饮食/日程关联"
+    ],
+    "ext_exclusive": true,
+    "competitors": [
+      {
+        "name": "krumjahn/applehealth",
+        "url": "https://github.com/krumjahn/applehealth",
+        "stars": "50",
+        "desc": "Apple Health数据导出+AI洞察"
+      }
+    ]
+  },
+  "166": {
+    "ext_title": "角落 (Stiry Demo)",
+    "ext_desc": "长按笔记收藏按钮触发的私密收藏体验，手机端适配。",
+    "ext_exclusive": true
+  },
+  "165": {
+    "ext_title": "Pensieve - AI Agent Native 的记忆收藏者",
+    "ext_desc": "通过多模态形式让用户以最轻松状态记录每个瞬间。三层架构: ①自动记录(HealthKit/CoreLocation/相册) ②AI伙伴(情境感知提问) ③多模态辅助(语音转写/图像理解/情绪识别/封面生成/叙事写作)。灵感来源: 婚礼记忆、AI时代的语境资产、记忆流失问题。",
+    "ext_exclusive": true,
+    "competitors": [
+      {
+        "name": "UdaraJay/Pile",
+        "url": "https://github.com/UdaraJay/Pile",
+        "stars": "3k",
+        "desc": "桌面AI日记应用，GPT-4洞察"
+      },
+      {
+        "name": "ocdevel/gnothi",
+        "url": "https://github.com/ocdevel/gnothi",
+        "stars": "206",
+        "desc": "开源AI自我发现日记"
+      }
+    ]
+  },
+  "164": {
+    "ext_title": "AI大时代生存模拟器",
+    "ext_desc": "互动生存模拟游戏，在AI时代做选择。含叙事卡、事件卡、结果卡和结局卡，进度条追踪，头像选择，移动端优化。",
+    "ext_exclusive": true
+  },
+  "162": {
+    "ext_title": "AI Dashboard - 全面信息看板",
+    "ext_desc": "涵盖: 美股互联网/半导体/云基础设施/AI原生公司(雅虎财经数据)、GitHub Trending、Voices(YouTube/X/Podcast)、基础设施地图(D3.js全球数据中心)、Paper Reading(ArXiv)、Lab Feed(Anthropic/OpenAI/DeepMind)。",
+    "ext_exclusive": true,
+    "competitors": [
+      {
+        "name": "finaldie/auto-news",
+        "url": "https://github.com/finaldie/auto-news",
+        "stars": "848",
+        "desc": "多源个人信息聚合+LLM降噪"
+      },
+      {
+        "name": "marmelab/curator-ai",
+        "url": "https://github.com/marmelab/curator-ai",
+        "stars": "200+",
+        "desc": "AI新闻策展人，自动选择和摘要"
+      }
+    ]
+  },
+  "161": {
+    "ext_title": "REDiary - 聊天记录你的生活",
+    "ext_desc": "日记/生活记录应用，JavaScript渲染SPA。",
+    "ext_exclusive": true
+  },
+  "157": {
+    "ext_title": "Spark - 小红书 AI 内容助手",
+    "ext_desc": "AI驱动的内容推荐助手。可自然语言聊天表达兴趣→主题化推荐(14+话题)，支持语音输入、@Spark提及、引导式教程。3个互动场景: 引导浏览、评论@Spark、@Spark创作。",
+    "ext_exclusive": true,
+    "competitors": [
+      {
+        "name": "recommenders-team/recommenders",
+        "url": "https://github.com/recommenders-team/recommenders",
+        "stars": "21.6k",
+        "desc": "微软推荐系统最佳实践（含冷启动方案）"
+      }
+    ]
+  },
+  "155": {
+    "ext_title": "魔法薯 - 赛博八字",
+    "ext_desc": "个性测试应用，MBTI风格动物选择(狮子/狐狸/猫咪等12种)、丛林探险隐藏性格测试，小红书信息流风格UI。",
+    "ext_exclusive": true,
+    "competitors": [
+      {
+        "name": "cantian-ai/bazi-mcp",
+        "url": "https://github.com/cantian-ai/bazi-mcp",
+        "stars": "50",
+        "desc": "MCP八字AI计算器"
+      },
+      {
+        "name": "rauf-21/mbti-personality-test-app",
+        "url": "https://github.com/rauf-21/mbti-personality-test-app",
+        "stars": "30",
+        "desc": "70题MBTI性格测试"
+      }
+    ]
+  },
+  "154": {
+    "ext_title": "智能体笔记 - 小红书第四种内容形式",
+    "ext_desc": "65+帖子的社交笔记平台，AI智能体集成(如\"庄子聊天\")。含评论区、点赞、位置标签、话题标签、回复功能。",
+    "ext_exclusive": true,
+    "competitors": [
+      {
+        "name": "reorproject/reor",
+        "url": "https://github.com/reorproject/reor",
+        "stars": "8.5k",
+        "desc": "本地AI知识管理，自动笔记关联"
+      },
+      {
+        "name": "fynnfluegge/rocketnotes",
+        "url": "https://github.com/fynnfluegge/rocketnotes",
+        "stars": "1.3k",
+        "desc": "AI Markdown编辑器，语音转文字"
+      }
+    ]
+  },
+  "148": {
+    "ext_title": "小林的 AI 投研工作流",
+    "ext_desc": "完整AI投研系统: SOUL.md/MEMORY.md/LEARNINGS.md→AGENTS.md判断内核。研究管线Scout→L1→L2→L3→Fund，7大工具(AGI人才情报/市场规模/Follow Builders/Transcript/Meeting Consensus/Deal Tracker/Deep Research)。投后管理: 沟通日志、创始人成长评估、财务持续追踪(6个自动预警规则)。真实案例: NeckLens($18M)/Echo(AI硬件)/Aria(已投种子轮)。",
+    "ext_features": [
+      "判断内核系统(SOUL+MEMORY+LEARNINGS→AGENTS)",
+      "四级研究管线(Scout→L1→L2→L3→Fund)",
+      "7大投研工具集",
+      "全栈Agent(健身教练+睡眠分析/候选人评估/周报)",
+      "投后6大自动预警(跑道<12月/MRR下降/烧钱率飙升/用户留存)",
+      "真实投资案例展示"
+    ],
+    "ext_exclusive": true,
+    "competitors": [
+      {
+        "name": "OpenBB-finance/OpenBB",
+        "url": "https://github.com/OpenBB-finance/OpenBB",
+        "stars": "63.4k",
+        "desc": "开源金融数据平台，面向分析师/量化/AI Agent"
+      },
+      {
+        "name": "AI4Finance-Foundation/FinRobot",
+        "url": "https://github.com/AI4Finance-Foundation/FinRobot",
+        "stars": "6.2k",
+        "desc": "LLM金融分析Agent，生成多页股票研究报告"
+      }
+    ]
+  },
+  "143": {
+    "ext_title": "Search Insight Dashboard - 搜索增长洞察",
+    "ext_desc": "男性新回流用户复搜行为分析。126万用户群/39%搜索渗透率/68.4%男性(TGI 180)。强信号: 改车(213)/主机游戏(205)/健身(195)/新能源车(189)。含核心结论、So What、信号分布、Query下钻、周度趋势追踪。(MVP v0.1 测试数据)",
+    "ext_exclusive": true,
+    "competitors": [
+      {
+        "name": "plausible/analytics",
+        "url": "https://github.com/plausible/analytics",
+        "stars": "24.4k",
+        "desc": "隐私友好的网站分析工具"
+      },
+      {
+        "name": "retentioneering/retentioneering-tools",
+        "url": "https://github.com/retentioneering/retentioneering-tools",
+        "stars": "850",
+        "desc": "用户行为分析: 点击流分析/用户旅程/行为分群"
+      }
+    ]
+  },
+  "142": {
+    "ext_title": "用户研究资料库 - 用户OnePage",
+    "ext_desc": "5个详细用户画像(SARAll/肥啾/丫丫妈妈/桃子/李女士)，含GMV分析/90天订单/私域深度/渠道来源。支持项目切换(私域关系/直播/电商体验)、实时笔记编辑、数据导出、JSON导入。",
+    "ext_exclusive": true,
+    "competitors": [
+      {
+        "name": "tencent-ailab/persona-hub",
+        "url": "https://github.com/tencent-ailab/persona-hub",
+        "stars": "800",
+        "desc": "腾讯10亿用户画像数据集"
+      }
+    ]
+  },
+  "141": {
+    "ext_title": "Soul Mirror - AI分身社交",
+    "ext_desc": "AI分身先行探路，发现灵魂契合的人。5种场景: 交友/相亲角/旅行搭子/职场交流/跨语言社交。含匹配报告、兼容性评分、AI对话记录与真人消息、瀑布流内容浏览。",
+    "ext_exclusive": true,
+    "competitors": [
+      {
+        "name": "a16z-infra/companion-app",
+        "url": "https://github.com/a16z-infra/companion-app",
+        "stars": "5.9k",
+        "desc": "a16z AI伙伴应用，带记忆的AI人格"
+      }
+    ]
+  },
+  "140": {
+    "ext_title": "薯你快乐 - 祝福+送礼不忘重要的人",
+    "ext_desc": "生日提醒与送礼服务。AI推荐礼物(基于偏好+小红书热门商品¥89-298)、6种语气祝福生成(温暖/搞笑/可爱/正式/文艺/诗意)、联系人管理(家人/朋友/老师/同事)。",
+    "ext_exclusive": true,
+    "competitors": [
+      {
+        "name": "m-i-n-a-r/birday",
+        "url": "https://github.com/m-i-n-a-r/birday",
+        "stars": "1.1k",
+        "desc": "精美生日提醒应用，星座/倒计时"
+      }
+    ]
+  },
+  "139": {
+    "ext_title": "土拨鼠信箱 - 把话埋进土里等它长出花来",
+    "ext_desc": "时间胶囊应用。写信→埋入→浇水→花开→阅读。15种花种4个稀有度(普通/精良/稀有/传说)、语音/照片附件、分享到小红书。全球统计: 2847人今日浇水/总浇水1,284,563次。",
+    "ext_exclusive": true,
+    "competitors": [
+      {
+        "name": "timc1/time-capsule",
+        "url": "https://github.com/timc1/time-capsule",
+        "stars": "48",
+        "desc": "给未来的自己写封信"
+      }
+    ]
+  },
+  "138": {
+    "ext_title": "展览体温计 - 看展真实评价一眼可见",
+    "ext_desc": "展览评分温度计(0-10分)。5个上海展览: 草间弥生(9.1/342评)/上海双年展(8.4/523评/免费)/赛博山海经AI艺术(7.6/156评)/油罐策展人奖(5.8/89评)/莫奈沉浸(6.3/234评)。30秒快速结构化评价、实时状态更新。",
+    "ext_exclusive": true,
+    "competitors": [
+      {
+        "name": "Arteur/arteur",
+        "url": "https://github.com/Arteur/arteur",
+        "stars": "7",
+        "desc": "实时分享艺术展览评论的社交平台"
+      }
+    ]
+  },
+  "145": {
+    "ext_title": "用户旅程图 - 灯灯西岸Citywalk",
+    "ext_desc": "自动生成可编辑用户旅程图。案例: 6个阶段(路线规划→油罐艺术中心→午餐→购物→滨江1→滨江2)，满意度3.8/5。核心洞察: \"可靠准确性+保留探索空间\"的中心悖论。支持情绪曲线、横向滚动、PNG/PDF导出。",
+    "ext_exclusive": true
+  },
+  "184": {
+    "ext_title": "ShowAndTell 演示神器",
+    "ext_desc": "Chrome扩展: 激光笔(700ms自动消失/8色/可调粗细)、摄像头浮窗(拖拽/滚轮缩放/3种形状)、一键录屏(WebM)、模式切换(光标/激光)。快捷键: L激光/M鼠标/C摄像头/R录制/Esc关闭。MIT开源。",
+    "ext_exclusive": true,
+    "competitors": [
+      {
+        "name": "alyssaxuu/screenity",
+        "url": "https://github.com/alyssaxuu/screenity",
+        "stars": "18k",
+        "desc": "Chrome屏幕录制扩展，标注+摄像头叠加"
+      }
+    ]
+  },
+  "182": {
+    "ext_title": "Skillhub - Skill共享平台",
+    "ext_desc": "全栈Skill分享市场。Python 56.8% + HTML 40.4%。含登录/注册/个人资料/技能市场/技能集/提示词市场/视频教程/论坛等41+页面。",
+    "ext_exclusive": true
+  },
+  "180": {
+    "ext_title": "川麻助手 - AR麻将作弊器",
+    "ext_desc": "RayNeo AR眼镜 + 本地YOLOv8牌面检测 + 川麻血战到底牌效计算。流程: 双击AR眼镜→拍照→网络传输→YOLO检测→牌局逻辑→策略推荐→AR眼镜显示。Python 60.2% + Kotlin 21.8%。全程本地计算无云端上传。",
+    "ext_exclusive": true,
+    "competitors": [
+      {
+        "name": "erreurt/MahjongAI",
+        "url": "https://github.com/erreurt/MahjongAI",
+        "stars": "453",
+        "desc": "日本麻将AI Agent"
+      },
+      {
+        "name": "smilee3998/mahjong_detection",
+        "url": "https://github.com/smilee3998/mahjong_detection",
+        "stars": "16",
+        "desc": "YOLOv11麻将牌检测"
+      }
+    ]
+  },
+  "172": {
+    "ext_title": "OOTD - AI穿搭推荐",
+    "ext_desc": "iOS原生SwiftUI + Fastify TypeScript后端。零网络首屏(6套预置搭配)、AI推荐引擎(gpt-4.1-mini)、肖像生成(gpt-image-1.5)、衣柜生成(60件/6类/9属性)。Docker部署Railway。",
+    "ext_exclusive": true,
+    "competitors": [
+      {
+        "name": "HumanAIGC/OutfitAnyone",
+        "url": "https://github.com/HumanAIGC/OutfitAnyone",
+        "stars": "6k",
+        "desc": "阿里超高质量虚拟试穿"
+      },
+      {
+        "name": "minar09/awesome-virtual-try-on",
+        "url": "https://github.com/minar09/awesome-virtual-try-on",
+        "stars": "3k",
+        "desc": "虚拟试穿论文/代码/数据集列表"
+      }
+    ]
+  },
+  "127": {
+    "ext_title": "AI Demo Day 网站",
+    "ext_desc": "本次活动官网。Next.js + TypeScript + Supabase + Vercel。119次提交。",
+    "ext_exclusive": true
+  },
+  "137": {
+    "ext_title": "Expeditions | Your travel stories",
+    "ext_desc": "旅行足迹交互Demo，目前不可访问。",
+    "ext_exclusive": true,
+    "competitors": [
+      {
+        "name": "seanmorley15/AdventureLog",
+        "url": "https://github.com/seanmorley15/AdventureLog",
+        "stars": "2.9k",
+        "desc": "自托管旅行追踪器，世界地图+行程"
+      }
+    ]
+  },
+  "179": {
+    "ext_title": "「知己知彼」掘金罗盘+攻防雷达 - 站内外商家控比看板",
+    "ext_desc": "户外运动行业多平台经营分析系统，覆盖小红书×抖音×淘宝三大平台77家商家。",
+    "ext_features": [
+      "站内GMV 20,204万元 | 抖音GMV 247,614万元 | 淘宝GMV 169,248万元",
+      "整体控比3.85% (MoM +0.54pp)，1000w+商家控比47.16%",
+      "Top商家: lululemon/安踏/adidas/骆驼/滔搏运动等",
+      "站外机会SPU看板: 6,900个SPU | 930个叶子类目 | 月销售额8.598亿",
+      "价格带分布分析(¥50以下至¥2000+)",
+      "数据来源: 小红书站内 + 魔镜(抖音/淘宝)"
+    ],
+    "ext_source": "xhscdn_dashboard",
+    "ext_exclusive": true
+  },
+  "150": {
+    "ext_exclusive": true,
+    "competitors": [
+      {
+        "name": "JoeanAmier/XHS-Downloader",
+        "url": "https://github.com/JoeanAmier/XHS-Downloader",
+        "stars": "5k+",
+        "desc": "小红书数据提取工具"
+      },
+      {
+        "name": "socioboard/Socioboard-5.0",
+        "url": "https://github.com/socioboard/Socioboard-5.0",
+        "stars": "1.4k",
+        "desc": "开源社交媒体管理和分析平台"
+      }
+    ]
+  },
+  "149": {
+    "ext_exclusive": true,
+    "competitors": [
+      {
+        "name": "dgunning/edgartools",
+        "url": "https://github.com/dgunning/edgartools",
+        "stars": "2k+",
+        "desc": "SEC EDGAR文件解析，含MCP Server"
+      },
+      {
+        "name": "lefterisloukas/edgar-crawler",
+        "url": "https://github.com/lefterisloukas/edgar-crawler",
+        "stars": "500+",
+        "desc": "SEC EDGAR爬虫，提取结构化JSON"
+      }
+    ]
+  },
+  "176": {
+    "ext_exclusive": true,
+    "competitors": [
+      {
+        "name": "MeisnerDan/mission-control",
+        "url": "https://github.com/MeisnerDan/mission-control",
+        "stars": "1k+",
+        "desc": "AI Agent任务管理指挥中心"
+      },
+      {
+        "name": "todo-for-ai/todo-for-ai",
+        "url": "https://github.com/todo-for-ai/todo-for-ai",
+        "stars": "300+",
+        "desc": "面向AI助手的MCP任务管理"
+      }
+    ]
+  },
+  "147": {
+    "ext_exclusive": true,
+    "competitors": [
+      {
+        "name": "e2b-dev/awesome-ai-agents",
+        "url": "https://github.com/e2b-dev/awesome-ai-agents",
+        "stars": "18.4k",
+        "desc": "AI自主Agent列表大全"
+      },
+      {
+        "name": "dtyq/magic",
+        "url": "https://github.com/dtyq/magic",
+        "stars": "1k+",
+        "desc": "开源全能AI办公平台"
+      }
+    ]
+  },
+  "153": {
+    "ext_exclusive": true,
+    "competitors": [
+      {
+        "name": "CopilotKit/open-research-ANA",
+        "url": "https://github.com/CopilotKit/open-research-ANA",
+        "stars": "240",
+        "desc": "AI研究画布，Human-in-the-Loop"
+      },
+      {
+        "name": "karpathy/autoresearch",
+        "url": "https://github.com/karpathy/autoresearch",
+        "stars": "5k+",
+        "desc": "Karpathy的AI自动化研究实验"
+      }
+    ]
+  },
+  "185": {
+    "ext_exclusive": true,
+    "competitors": [
+      {
+        "name": "finaldie/auto-news",
+        "url": "https://github.com/finaldie/auto-news",
+        "stars": "848",
+        "desc": "个人新闻聚合器，LLM摘要"
+      },
+      {
+        "name": "Thysrael/Horizon",
+        "url": "https://github.com/Thysrael/Horizon",
+        "stars": "500+",
+        "desc": "AI新闻聚合，HackerNews/RSS/GitHub/Telegram"
+      }
+    ]
+  },
+  "152": {
+    "ext_exclusive": true,
+    "competitors": [
+      {
+        "name": "LitLLM/LitLLM",
+        "url": "https://github.com/LitLLM/LitLLM",
+        "stars": "400",
+        "desc": "RAG生成文献综述"
+      },
+      {
+        "name": "PouriaRouzrokh/LatteReview",
+        "url": "https://github.com/PouriaRouzrokh/LatteReview",
+        "stars": "150",
+        "desc": "AI自动化系统性文献综述"
+      }
+    ]
+  },
+  "168": {
+    "ext_exclusive": true,
+    "competitors": [
+      {
+        "name": "higherbar-ai/survey-eval",
+        "url": "https://github.com/higherbar-ai/survey-eval",
+        "stars": "30",
+        "desc": "AI问卷质量评估"
+      }
+    ]
+  },
+  "160": {
+    "ext_exclusive": true,
+    "competitors": [
+      {
+        "name": "MedamoniSharan/Ai-PodcastSummarizer",
+        "url": "https://github.com/MedamoniSharan/Ai-PodcastSummarizer",
+        "stars": "50",
+        "desc": "播客转录+摘要+关键词提取"
+      },
+      {
+        "name": "tekeburak/podcast-summarizer",
+        "url": "https://github.com/tekeburak/podcast-summarizer",
+        "stars": "40",
+        "desc": "WhisperX+GPT播客摘要"
+      }
+    ]
+  },
+  "156": {
+    "ext_exclusive": true,
+    "competitors": [
+      {
+        "name": "stepfun-ai/Step1X-Edit",
+        "url": "https://github.com/stepfun-ai/Step1X-Edit",
+        "stars": "2.2k",
+        "desc": "SOTA开源图像编辑模型"
+      },
+      {
+        "name": "timothybrooks/instruct-pix2pix",
+        "url": "https://github.com/timothybrooks/instruct-pix2pix",
+        "stars": "6.5k",
+        "desc": "文本指令编辑图片(UC Berkeley)"
+      }
+    ]
+  },
+  "159": {
+    "ext_exclusive": true,
+    "competitors": [
+      {
+        "name": "cantian-ai/bazi-mcp",
+        "url": "https://github.com/cantian-ai/bazi-mcp",
+        "stars": "50",
+        "desc": "MCP八字AI计算器"
+      },
+      {
+        "name": "productivitysme/DestinyPillars",
+        "url": "https://github.com/productivitysme/DestinyPillars",
+        "stars": "20",
+        "desc": "AI八字命理解读"
+      }
+    ]
+  }
+}

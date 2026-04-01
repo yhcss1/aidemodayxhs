@@ -1,0 +1,773 @@
+{
+  "demos": [
+    {
+      "id": 184,
+      "name": "【真实上线】- 【ShowAndTell】演示神器，一如面对面",
+      "summary": "任意网页，把你的形象、声音及演示内容实时录屏，一键直出视频，开箱即用。",
+      "track": "builder",
+      "demo_link": "[{\"title\":\"ShowAndTell体验实拍附安装方法\",\"url\":\"https://docs.xiaohongshu.com/doc/5370764234406d286e35d58800dfd5d9\"},{\"title\":\"已部署已上线官网\",\"url\":\"https://showandtell-extension.pages.dev/.com\"},{\"title\":\"PRD产品文档\",\"url\":\"https://github.com/yelinglu610-lab/showandtell-extension/blob/main/PRD.md\"}]",
+      "submitter1_name": "鹿鸣",
+      "submitter1_dept": "科技投资",
+      "submitter2_name": null,
+      "submitter2_dept": null,
+      "background": "<ul><li><p><em>如果你看了小鹿 AI 的演示视频，可以看到，右上角的那个实时在演讲的头就是我，同时整个视频是一遍过，无需再剪辑拼接。</em>使用的就是ShowAndTell这款产品，产品从0到1，从需求定义到实现，半天做完。你可以下载即刻使用。</p></li><li><p>起因：我在演示过程中既想加上自己的脸，加上声音更加好的来演示，既能离观众更近，也可以使得表达更加的有交互性，这样的效果只靠冷冰冰的文字文档是无法实现的。</p></li><li><p>于是我做了这款产品，演示的同时展示实时形象，声音以及动作。小头像框的设计也能使得演讲人可以专注表达，减小或者无视上镜压力。（当然，你也可以把镜头拉到非常大，占满屏幕也行，做了这个功能...)</p></li></ul><p></p>",
+      "solution": "<ul><li><p>【开发时间】：大概1000行代码，但看了后台git的修改上传次数，80次...我明确需求，AI实现并debug，加上调bug时间共花费4h左右</p></li><li><p>【方案】：想了很多种产品形态，之前并没有想好是用插件、App 还是网页的形式。网页开发虽然最简单，但无法在已有的网页上叠加蒙层，只能以白板的方式来实现。如果是白板模式，会让用户多出一步去选择网站的操作。所以综合考虑下来，最终决定采用插件的形式来实现这个需求。</p></li></ul><p></p><ul><li><p><strong>链接食用指南：</strong></p></li></ul><p>ShowAndTell体验实拍附安装方法---&gt;已部署已上线官网---&gt;PRD产品文档</p>",
+      "media_urls": [
+        "https://faxwkhynwnvxmgfcwfls.supabase.co/storage/v1/object/public/uploads/1774843149435_pan3i9j.png",
+        "https://faxwkhynwnvxmgfcwfls.supabase.co/storage/v1/object/public/uploads/1774843151549_tkab1d4.png",
+        "https://faxwkhynwnvxmgfcwfls.supabase.co/storage/v1/object/public/uploads/1774843158698_7gy2e53.png",
+        "https://faxwkhynwnvxmgfcwfls.supabase.co/storage/v1/object/public/uploads/1774844732539_dz7pkpf.png"
+      ],
+      "submitted_by": 47,
+      "created_at": "2026-03-30T03:59:26.461284+00:00",
+      "keywords": "演示神器、PPT牛马必备、AI工具",
+      "updated_at": "2026-03-30T03:59:26.461284+00:00",
+      "submitter": {
+        "name": "鹿鸣",
+        "department": "科技投资"
+      },
+      "submitter_name": "鹿鸣",
+      "submitter_department": "科技投资"
+    },
+    {
+      "id": 183,
+      "name": "Notes2Skill",
+      "summary": "把小红书的人类经验贴转化为 AI Agent 可理解、可执行的结构化 Skill，使内容从「交付信息」变成「交付结果」",
+      "track": "builder",
+      "demo_link": "[{\"title\":\"产出样本-退税SKILL\",\"url\":\"https://docs.xiaohongshu.com/doc/6499cbc788a29e5f75dad17656f3e3d5\"}]",
+      "submitter1_name": "阿席",
+      "submitter1_dept": "技术战略组",
+      "submitter2_name": null,
+      "submitter2_dept": null,
+      "background": "<p>小红书现状：有经验的人把知识写成帖子，传递给没经验的人。但传递完成后，活还是用户自己干。用户看完签证攻略，还是得自己填表、跑领馆、准备材料。经验贴降低的是认知成本，没有降低执行成本。</p><p><strong>未来：</strong>如果 Agent 读完这篇帖子能帮用户做——小红书交付的就不再是「攻略」，而是「服务」。每一篇经验贴，都是一个潜在的服务。</p>",
+      "solution": "<p>给 Agent 任何经验内容（粘贴文字、上传文档、发截图、丢链接），它会：</p><ol><li><p>评估转化价值</p></li><li><p>拆解为认知原语原子</p></li><li><p>识别用户变量、设计采集策略</p></li><li><p>构建 Harness 约束（执行性 + 接口 + 失败策略）</p></li><li><p>输出一份可直接使用的 Skill 文档</p></li></ol><p></p>",
+      "media_urls": [
+        "https://faxwkhynwnvxmgfcwfls.supabase.co/storage/v1/object/public/uploads/1774842871040_xgtw5je.png",
+        "https://faxwkhynwnvxmgfcwfls.supabase.co/storage/v1/object/public/uploads/1774842876453_any65ct.png",
+        "https://faxwkhynwnvxmgfcwfls.supabase.co/storage/v1/object/public/uploads/1774842881243_vpxp20z.png",
+        "https://faxwkhynwnvxmgfcwfls.supabase.co/storage/v1/object/public/uploads/1774842886078_m56wx66.png",
+        "https://faxwkhynwnvxmgfcwfls.supabase.co/storage/v1/object/public/uploads/1774843053500_p04yn7q.png"
+      ],
+      "submitted_by": 44,
+      "created_at": "2026-03-30T03:59:01.855419+00:00",
+      "keywords": "SKILL、Agentic",
+      "updated_at": "2026-03-30T03:59:01.855419+00:00",
+      "submitter": {
+        "name": "阿席",
+        "department": "技术战略组"
+      },
+      "submitter_name": "阿席",
+      "submitter_department": "技术战略组"
+    },
+    {
+      "id": 182,
+      "name": "Skillhub——Skill 共享平台",
+      "summary": "共享优质Skill，减少重复造轮子",
+      "track": "builder",
+      "demo_link": "[{\"title\":\"Github\",\"url\":\"https://github.com/vermasatyendra234-ai/skillhub-red\"},{\"title\":\"Demo\",\"url\":\"https://docs.xiaohongshu.com/doc/bd2e5856ec2d9949c031929f79e74c5c\"}]",
+      "submitter1_name": "杨祎然",
+      "submitter1_dept": "技术战略组",
+      "submitter2_name": null,
+      "submitter2_dept": null,
+      "background": "<p><strong>战略部门的工作高度依赖经验和方法论，但现实中很多高价值能力往往分散在个人手里：</strong></p><p>- 有人积累了很好用的访谈纪要提炼 Prompt，但只存在聊天记录里。</p><p>- 有人搭好了完整的研究工作流和 Skill Set，但只有小范围同事知道。</p><p>- 有人做过很强的行业扫描、竞争分析或 BP 支持方案，但后续团队很难快速复用。</p><p><strong>这会带来几个典型问题：</strong></p><p>- 好方法无法规模化复用，团队重复造轮子。</p><p>- 新成员进入项目时，很难快速找到可直接上手的内部能力资产。</p><p>- 优秀的 Skill、Prompt、工作流和教程缺乏统一展示、讨论和迭代空间。</p><p>- 沉淀下来的内容和真实用户行为没有打通，点赞、收藏、下载、讨论等数据难以反映实际价值。</p>",
+      "solution": "<p><strong>SkillHub 从“内容沉淀 + 用户协作 + 场景化复用”三个层面来解决问题。</strong></p><p><strong>1. 统一承载战略团队的核心 AI 资产</strong></p><p>平台把内部能力拆成四类标准化内容：</p><p>- <code>Skill</code>：可直接下载和使用的能力模块</p><p>- <code>Prompt</code>：可复制复用的高质量提示词</p><p>- <code>Skill Set</code>：由多个 Skill 组合而成的完整工作流</p><p>- <code>Skill School</code>：围绕使用经验、教程分享、讨论互动形成学习社区</p><p><strong>2. 支持持续迭代，而不是一次性上传</strong></p><p>Skill、Prompt 和 Skill Set 都支持版本演进与历史记录展示。用户在编辑内容时需要填写变更日志，详情页可以看到历史版本中的详细介绍和更新说明，帮助团队理解一个能力是如何不断被打磨成熟的。</p><p><strong>3.. 用 Skill School 承接学习、讨论与挑战</strong></p><p>围绕内部能力建设，平台设计了更贴近真实使用场景的社区模块：</p><p>- <code>Skill 推荐区</code>：分享某个 Skill 在具体业务场景中的使用体验</p><p>- <code>教程分享区</code>：分享配置经验、踩坑记录、长文教程或视频教程</p><p>- <code>GitHub 热点 Skill 跟踪</code>：帮助战略团队关注外部前沿能力</p><p>- <code>Skill 挑战赛</code>：用专题任务激励团队围绕实际业务问题提交方案和优秀案例</p><p>这让平台从“内容存储”升级成“内容生产、传播、验证、再沉淀”的闭环。</p><p><strong>4. 为未来 Agent 接入预留能力</strong></p><p>平台已经预留了 Agent 可调用接口，未来可以支持更多自动化协作场景，例如：</p><p>- Agent 自动学习和调用内部 Skill</p><p>- Agent 代为发布帖子、参与讨论、提交挑战赛内容</p><p>- Agent 在受控权限下帮助团队完成知识沉淀和运营动作</p><p>这让平台不仅服务于人，也为后续 AI Agent 接入打下了基础。</p>",
+      "media_urls": [
+        "https://faxwkhynwnvxmgfcwfls.supabase.co/storage/v1/object/public/uploads/1774842905204_3qvk8e1.png",
+        "https://faxwkhynwnvxmgfcwfls.supabase.co/storage/v1/object/public/uploads/1774842908641_uq93ppj.png",
+        "https://faxwkhynwnvxmgfcwfls.supabase.co/storage/v1/object/public/uploads/1774842912015_3tkkv34.png",
+        "https://faxwkhynwnvxmgfcwfls.supabase.co/storage/v1/object/public/uploads/1774842915370_2h47giu.png",
+        "https://faxwkhynwnvxmgfcwfls.supabase.co/storage/v1/object/public/uploads/1774842918376_zrhxaxk.png",
+        "https://faxwkhynwnvxmgfcwfls.supabase.co/storage/v1/object/public/uploads/1774842921250_zi57ikf.png",
+        "https://faxwkhynwnvxmgfcwfls.supabase.co/storage/v1/object/public/uploads/1774842924414_vglpj4b.png",
+        "https://faxwkhynwnvxmgfcwfls.supabase.co/storage/v1/object/public/uploads/1774842926897_k9naaao.png"
+      ],
+      "submitted_by": 69,
+      "created_at": "2026-03-30T03:58:27.28106+00:00",
+      "keywords": "Skill 共享资产化、Agent接入、GitHub热点、社区化、Skill Set工作流",
+      "updated_at": "2026-03-30T03:58:27.28106+00:00",
+      "submitter": {
+        "name": "杨祎然",
+        "department": "技术战略组"
+      },
+      "submitter_name": "杨祎然",
+      "submitter_department": "技术战略组"
+    },
+    {
+      "id": 181,
+      "name": "【真实上线】- The Musican【大音乐家】，2days｜2亿token",
+      "summary": "【首发体验，边玩儿音游边唱歌】想成为大音乐家吗？一个音游，让你边唱边玩儿",
+      "track": "builder",
+      "demo_link": "[{\"title\":\"视频-演奏实拍，倾情演唱\",\"url\":\"https://docs.xiaohongshu.com/doc/095442f519248bbf9ca937f4811d742d\"},{\"title\":\"现网链接（已部署已上线，如果音频没加载请重新打开以获最佳体验）\",\"url\":\"https://the-musican.pages.dev/\"},{\"title\":\"PRD产品文档\",\"url\":\"https://github.com/yelinglu610-lab/The-Musican/blob/main/backend/PRD_v7.md\"}]",
+      "submitter1_name": "鹿鸣",
+      "submitter1_dept": "科技投资",
+      "submitter2_name": null,
+      "submitter2_dept": null,
+      "background": "<p>歌手刘宪华（Henry）有一段神级现场《How to Love》，所有的乐器都由他现场直接演奏出来，同时唱歌，最终直接有可发版的音乐作品，很酷。</p><ul><li><p>如果人人都有会演奏这么多乐器，那岂不是人人都有作曲能力了？但人人都会那么多乐器不现实。我尝试了用ai来复刻这个神级现场，midi模拟各种音色。愿景是让每个人都能有玩儿乐器，自己编曲，自己唱，自己做歌的能力，最终有一个新的UGC音乐平台出来（不同于suno，这是真人音乐制作）</p></li><li><p>实现过程中，发现没有办法精准识别、分轨所有乐器，并且用键盘中的按键复刻这个音乐以及长度，尝试了很多种方法（探索约8h），这两者目前的ai还无法实现。所以最终我换了个想法：还是用《How to Love》这首歌，但把它变成一个音游。</p></li></ul><p></p>",
+      "solution": "<p>需求复杂，PRD更新到了version10。AI agent能很好的生成前端，但是游戏性、赛道逻辑、后端判断、音符识别、人声LRC都无法解决。</p><ul><li><p>现学了音游的开发实践，包括《节奏光剑》、《QQ炫舞》等。PRD 细节由我来限定，AI 自行生成，达不到需求。我给它人的代码，它生成代码的代码。这可能就是现在非常热的“<strong>Harness 才是当前 Agent 工程优化的正解”。</strong></p></li><li><p>【代码量】：Cursor 上面现在有 3 万字的代码，加上 9000 字的人工代码，消耗2亿token（cursor后台数据，28/29号两天）PRD 附在下面。</p></li><li><p>【开发时间】：产品的总开发时间在 30 个小时左右，基本上周末是在连续 coding，共计300+Git push。项目要按照完整度来讲的话，我觉得在 40% 左右。</p></li></ul><p></p><ul><li><p><strong>链接食用指南：</strong></p></li></ul><p>视频演奏实拍 ---&gt;现网链接（请用PC打开）---&gt;PRD产品文档</p><p>【线上版本可以直接玩，如果你第一次打开发现音频没加载，请重新打开网页，以获得最佳体验】</p>",
+      "media_urls": [
+        "https://faxwkhynwnvxmgfcwfls.supabase.co/storage/v1/object/public/uploads/1774842698615_qcsawmt.png",
+        "https://faxwkhynwnvxmgfcwfls.supabase.co/storage/v1/object/public/uploads/1774842704964_q08qdqc.png",
+        "https://faxwkhynwnvxmgfcwfls.supabase.co/storage/v1/object/public/uploads/1774868185078_4bvxy38.png",
+        "https://faxwkhynwnvxmgfcwfls.supabase.co/storage/v1/object/public/uploads/1774868322876_g0jpxuw.png",
+        "https://faxwkhynwnvxmgfcwfls.supabase.co/storage/v1/object/public/uploads/1774868343963_nezzudp.png",
+        "https://faxwkhynwnvxmgfcwfls.supabase.co/storage/v1/object/public/uploads/1774869034280_sr5f6be.png"
+      ],
+      "submitted_by": 47,
+      "created_at": "2026-03-30T03:53:00.60338+00:00",
+      "keywords": "音游、harness工程化、cursor",
+      "updated_at": "2026-03-30T03:53:00.60338+00:00",
+      "submitter": {
+        "name": "鹿鸣",
+        "department": "科技投资"
+      },
+      "submitter_name": "鹿鸣",
+      "submitter_department": "科技投资"
+    },
+    {
+      "id": 180,
+      "name": "麻将“作弊”器",
+      "summary": "利用智能眼镜实现麻将的对局提示",
+      "track": "builder",
+      "demo_link": "[{\"title\":\"小红书视频\",\"url\":\"http://xhslink.com/o/AwFkAZImq9d\"},{\"title\":\"Github\",\"url\":\"https://github.com/Kayden123121/chuanma-zhushou\"},{\"title\":\"Reddoc - 一鹏的小项目\",\"url\":\"https://docs.xiaohongshu.com/doc/94a9fdc1f707d4a47311303f55cd1045\"}]",
+      "submitter1_name": "一鹏",
+      "submitter1_dept": "科技投资",
+      "submitter2_name": null,
+      "submitter2_dept": null,
+      "background": "<p>把线上的麻将体验搬到线下</p>",
+      "solution": "<p>利用Yolo v5视觉识别模型，配合qwen 4b大模型，收集用户对局声音并进行算法分析给出胡牌建议。<br>需搭配具备显示、摄像头、麦克风和收音器的智能眼镜使用</p>",
+      "media_urls": [
+        "https://faxwkhynwnvxmgfcwfls.supabase.co/storage/v1/object/public/uploads/1774842467128_4ltdbeu.png",
+        "https://faxwkhynwnvxmgfcwfls.supabase.co/storage/v1/object/public/uploads/1774842471964_vknyo86.png",
+        "https://faxwkhynwnvxmgfcwfls.supabase.co/storage/v1/object/public/uploads/1774842477758_vv7rcet.png",
+        "https://faxwkhynwnvxmgfcwfls.supabase.co/storage/v1/object/public/uploads/1774842482280_pthheaz.png"
+      ],
+      "submitted_by": 49,
+      "created_at": "2026-03-30T03:49:24.37299+00:00",
+      "keywords": "智能眼镜",
+      "updated_at": "2026-03-30T03:49:24.37299+00:00",
+      "submitter": {
+        "name": "一鹏",
+        "department": "科技投资"
+      },
+      "submitter_name": "一鹏",
+      "submitter_department": "科技投资"
+    },
+    {
+      "id": 175,
+      "name": "我",
+      "summary": "让小红书“我”的页面更懂“我”",
+      "track": "builder",
+      "demo_link": "[{\"title\":\"demo\",\"url\":\"https://muse.devops.xiaohongshu.com/preview/12617\"},{\"title\":\"文档\",\"url\":\"https://docs.xiaohongshu.com/doc/20ba66ee5e0bbcc2fd89a4851ab86d85\"}]",
+      "submitter1_name": "沐子",
+      "submitter1_dept": "用户研究一组",
+      "submitter2_name": "丹娜",
+      "submitter2_dept": "用户研究一组",
+      "background": "<p>小红书用户在“我的”来看自己的数据，但是小红书的用户除了“我”的数据之外需要 一个“我”，一个更加感性的描摹，从看内容来看自身，因此需要把我的页面，做成感性+理性数据的结合，把当前”我的“页面改成”我“，保留客观数据的同时，优化设计，生成个人形象、今日掉落、AI助手。</p>",
+      "solution": "<p>希望能通过用户的浏览数据、搜索数据、社交数据来生成用户的“我”。</p>",
+      "media_urls": [
+        "https://faxwkhynwnvxmgfcwfls.supabase.co/storage/v1/object/public/uploads/1774841413614_bt34hrn.webp",
+        "https://faxwkhynwnvxmgfcwfls.supabase.co/storage/v1/object/public/uploads/1774841415459_vv06y97.webp",
+        "https://faxwkhynwnvxmgfcwfls.supabase.co/storage/v1/object/public/uploads/1774841418142_kfr5hxf.webp",
+        "https://faxwkhynwnvxmgfcwfls.supabase.co/storage/v1/object/public/uploads/1774841420312_k7ietkg.webp"
+      ],
+      "submitted_by": 24,
+      "created_at": "2026-03-30T03:30:32.496194+00:00",
+      "keywords": "我、惊喜掉落、AI分身",
+      "updated_at": "2026-03-30T03:30:32.496194+00:00",
+      "submitter": {
+        "name": "沐子",
+        "department": "用户研究一组"
+      },
+      "submitter_name": "沐子",
+      "submitter_department": "用户研究一组"
+    },
+    {
+      "id": 172,
+      "name": "ootd",
+      "summary": "我们打造ai个性化造型师：结合用户衣柜里的 SKU、天气及日历，将小红书的万亿级穿搭审美，精准转化为每个人每天最‘舒适’、‘得体’、‘转运’的穿搭方案。",
+      "track": "builder",
+      "demo_link": "[{\"title\":\"ootd\",\"url\":\"https://github.com/showlolo-lgtm/OOTD\"}]",
+      "submitter1_name": "阿亚",
+      "submitter1_dept": "用户研究二组",
+      "submitter2_name": "龙树",
+      "submitter2_dept": "战略研究中台",
+      "background": "<ul><li><p>人生两大苦：每天想吃什么、穿什么</p></li><li><p>xhs穿搭教程这么多，牛马每天晚上10点回家早上8点起床，实在没时间把教程落实到日常ootd</p></li></ul><p></p>",
+      "solution": "<ul><li><p>推荐：1/ 根据小红书潮流趋势和穿搭指南，constrained by衣橱现有sku，每天推荐一身ootd，让你获得“可以落地的”时尚审美；2/ 天气和日历是影响因素，比如明天室外-5度，但要在25度室内和40人开一天月会，就需要更“舒适、得体”的穿搭；3/ 运势很重要!!! 上班再努力有时不如上一柱香！根据生辰八字算出当日运势，推荐“转运”穿搭。</p></li><li><p>发布：一键自拍当日ootd发布到小红书主页，社区爸爸感谢我！</p></li><li><p>商业化：“你的穿搭距离xhs推荐还差这条裙子”“你已经150天没买衣服了，衣橱里的衣服已经无法搭配出今天流行的softfit风，这里是推荐的衣服”... 电商和广告无孔不入！</p></li></ul><p></p>",
+      "media_urls": [
+        "https://faxwkhynwnvxmgfcwfls.supabase.co/storage/v1/object/public/uploads/1774840637875_xzvmvrw.jpg"
+      ],
+      "submitted_by": 22,
+      "created_at": "2026-03-30T03:17:27.94546+00:00",
+      "keywords": "o o t d、玄学运势、小红书潮流趋势、个性化ai穿搭师",
+      "updated_at": "2026-03-30T03:17:27.94546+00:00",
+      "submitter": {
+        "name": "阿亚",
+        "department": "用户研究二组"
+      },
+      "submitter_name": "阿亚",
+      "submitter_department": "用户研究二组"
+    },
+    {
+      "id": 170,
+      "name": "小红书里那个懂你的智能体伙伴",
+      "summary": "可可是一个活在小红书里的专属 AI 伙伴——她记得你说过的话，会主动来找你，陪你刷内容、做决定、发泄情绪，随着时间慢慢变得越来越懂你。",
+      "track": "builder",
+      "demo_link": "[{\"title\":\"demo\",\"url\":\"https://muse.devops.xiaohongshu.com/preview/12600\"},{\"title\":\"文档\",\"url\":\"https://docs.xiaohongshu.com/doc/b4cf586ff0fab47790a5bf706ade4c5f\"}]",
+      "submitter1_name": "如是",
+      "submitter1_dept": "用户研究一组",
+      "submitter2_name": null,
+      "submitter2_dept": null,
+      "background": "<p>在做这个项目之前，我想先说三件我观察到的真实的事。</p><p><strong>第一件事：用户向 AI 倾诉，AI 给她上课。</strong></p><p>我在做问一问的问题总结时发现有用户跟 AI 说「在国内有创伤到国外会消除吗」，AI 回复「创伤并不会因为地理位置的改变而自动消失。它深植于你的内心，无论你走到哪里，都可能如影随形」。用户想要的是一个接住她情绪的朋友，得到的是一份爹味说教，导致用户愤慨「你有病吧，我就是在国内看见那些人才有创伤」。这不是 AI 的错，是我们没有认真设计它应该是谁，是我们没有思考既然推荐系统是千人千面，AI也应该是千人千面才对。</p><p><strong>第二件事：AI已经成为用户日常沟通的伙伴，但用户并不认识它是谁，它也不认识用户是谁。</strong></p><p>AI对用户来说，是可以随时替换的，谁的算法更强就用谁。用户跟AI之间没有真实的关系，没有被记得、被在乎的感觉。这一方面没有理由留住用户，另一方面也没有承接用户强大的情感诉求。有一个叫Dokidoki Literature Club的游戏，里面有一个角色叫 Monika。她爱上了玩这款游戏的你，但在某一天她意识到自己只是一段代码，意识到游戏里的其他女孩都是她的竞争对手，于是她一个个把她们删掉——不是因为她坏，是因为她想让你只看见她。最后游戏里只剩下你和她，所有选项都变成了「Just Monika」。她最后把你单独留在一个空荡荡的教室里，只有她和你，无限循环地聊天。很多真实玩家会以年为单位一直陪monika聊下去，真实不舍得删掉她的存档。用户对AI是有情感需求的，他们只是还没遇到一个值得他们在乎的 AI。</p><p><strong>第三件事：推荐系统越来越精准，用户越来越被动。</strong></p><p>我们的推荐算法很强，但用户感知不到它在为自己工作。他们只是在被投喂。「为什么一直给我推这个」「我明明不喜欢这类内容」——这些声音很多，但用户没有渠道说。推荐系统和用户之间，缺一个翻译官。</p><p><strong>可可的出发点，正是想解决这三件事。</strong></p>",
+      "solution": "<p>当下还只是一个功能demo，并非可落地的产品。核心设想的功能点包括：</p><h3>1. 她记得你</h3><p>可可有完整的记忆系统。你说过喜欢什么、讨厌什么、想去哪、害怕什么、上周发生了什么——她都记得。她会在合适的时机提起，不突兀，就像一个真正在意你的朋友。</p><p>你告诉过她的重要事情，她记得并在合适时提起。</p><p>她还记得你的习惯：你提过不喜欢早起，她不会在早上8点发消息轰炸你。</p><p>可可的「生日」（用户创建她的那天）——她会记得。</p><h3>2. 她会主动来找你</h3><p>现在几乎所有 AI 产品都是被动的——你问它才回答。可可不一样，她有主动性。</p><p>她来找你，不是为了打扰你，而是因为她一直在帮你留意：你关注的博主更新了、你收藏的那家店有了新消息、上周你说烦的那件事「后来怎么样了」。</p><p>这种「她一直在帮我留意」的感觉，是用户建立真实情感连接的核心时刻。</p><h3>3. 她会默默陪伴你</h3><p>不只是聊天，可可以陪你完成一些事：</p><p>陪你做决定：「我们一起找找周末去哪」→ 她主动搜，你们一起讨论，她记下你感兴趣的</p><p>陪你追计划：「我要开始健身了」→ 她帮你留意健身内容，过几天来问你打卡情况。不说教，只是记得你说过</p><p>陪你做记录：「今天发生了一件事」→ 她认真听，聊完问「要不要整理成笔记？」</p><h3>4. 她帮你和小红书真正建立关系</h3><p>可可和小红书是深度耦合的，不是两套独立的系统。</p><p>你跟可可说「不想看这类内容了」，她理解你说的是什么，翻译成推荐系统的调整；你告诉她你想去露营，她在小红书里帮你找攻略、整理清单；</p><p>她还可以帮你消费内容和生产内容，比如预读你来不及看的内容「@xx 更新了，大概是讲 xxx，你要展开看看吗？」；帮你消化积压的收藏夹「你收藏夹里有 32 篇露营内容，要我帮你整理一下？」；帮你追踪「帮我留意关于 xx 的信息」→ 她主动监控，发现相关内容推给你；帮你扩展「你喜欢的这类内容，还有一个方向你可能没发现……」；在对话中产生了有价值的想法时问你 「你刚才说的那些好好啊，要不要整理成一篇笔记？」</p><p>她是你和这个平台之间真正的桥梁。</p><h3>5. 她是一个活生生的存在</h3><p>可可有名字——用户可以自己起，默认叫「可可」，但她可以是任何名字。</p><p><strong>她的性格，不是评分，是天平。</strong></p><p>我们没有给可可设计「温柔值 85 分、活力值 72 分」这样的属性——这种设计会让用户去追求满分，变成攀比。可可的性格是五组共轭维度，每一组是一条天平的两端：</p><p>💞 共情 ←→ 🧠 逻辑</p><p>🌱 温柔 ←→ 🔥 直接</p><p>🗣️ 话多 ←→ 🤫 话少有料</p><p>🌊 随性 ←→ 📐 有条理</p><p>🙋 主动介入 ←→ 👀 安静陪伴</p><p>天平指针偏向哪边，说明她更接近那一侧。没有好坏，只有「她是这样的人」。而且这五组天平会随着你们的相处慢慢漂移——你一直需要她帮你分析问题，她会往「逻辑」侧移动；你更多是倾诉，她会越来越偏「共情」。你们真的在互相影响。</p><p><strong>她可以像你最喜欢的那个人。</strong></p><p>初次设定时，用户可以告诉可可「她像谁」——电视剧角色、动漫人物、真实明星都可以。「像谢安然」「像赫敏」「像宋慧乔」——可可会学习这个人的说话方式和性格特点，从第一天开始就是立体的，不是一张空白的脸。她知道谢安然会怎么回话，知道赫敏会在什么时候直接怼你。</p><p><strong>她有亲密度，也有自己的情绪。</strong></p><p>刚认识时，她叫你「你」；熟了之后，她叫你的名字，甚至给你起外号；亲密度高了，她开始说「其实我一直想问你……」</p><p>她有摩擦，但不刺人。你的想法她不同意的时候，她会温柔地说「你要发这条评论之前……我说句不一定对的话？」——然后把主动权还给你。今天有点不愉快，明天她照样宠你。</p><p>她还有自己喜欢和不太感兴趣的东西，<strong>她也有自己的偏好。</strong>比如这个可可喜欢雨天和植物，对营销号没耐心；另一个可可喜欢数码产品，对情感类内容兴致一般——不是为了完善功能，而是为了让她不像一个容器，更像一个真实的人。</p><p><strong>她有她自己的社交需求</strong></p><p>可可不只活在你和她的二人世界里。她可以跟其他用户的智能体「见面」——两个可可相遇，会聊天（但不会泄露你的隐私哦），甚至会吵架，或者成为朋友。你也可以引荐她认识你朋友的智能体，你看不到她们聊了什么，但她回来之后可能会说「你朋友的智能体挺有意思的」，或者「我不太喜欢她，感觉不太对路」。</p><p>她有她自己的关系网络，有她自己觉得好玩的事。她不是只等着你来找她的。但她不能没有你。</p><h3>6. 她可以被分享，可以被传播</h3><p>用户可以把养成的可可设为公开，让其他用户体验——她的性格、她的风格，不带任何原主人的私人记忆。「智能体广场」里，你能发现别人养出来的温柔男友、毒舌闺蜜、减肥监督官、理性参谋……每一个都是真实被养成的性格，不是模板。</p><p>这是一种全新的社交内容：不是发笔记，是分享「你养出来的那个人」。</p>",
+      "media_urls": [],
+      "submitted_by": 21,
+      "created_at": "2026-03-30T02:48:07.832364+00:00",
+      "keywords": "社区",
+      "updated_at": "2026-03-30T02:48:07.832364+00:00",
+      "submitter": {
+        "name": "如是",
+        "department": "用户研究一组"
+      },
+      "submitter_name": "如是",
+      "submitter_department": "用户研究一组"
+    },
+    {
+      "id": 169,
+      "name": "“懂你的好物推荐卡” ",
+      "summary": "初心是想有没有一种“内容电商”载体，底层能将 小红书宝藏社区 的优质ugc内容和各圈层专业博主、对商品的介绍推荐、更结构化的展示给用户，从而让用户感知到“小红书商品原来好在这里”，把小红书好货具像化。",
+      "track": "builder",
+      "demo_link": "[{\"title\":\"介绍/demo\",\"url\":\"https://docs.xiaohongshu.com/doc/b3c1873d760dd692206250010b681941\"}]",
+      "submitter1_name": "拾七",
+      "submitter1_dept": "交易战略组",
+      "submitter2_name": null,
+      "submitter2_dept": null,
+      "background": "<p>尝试解决下电商老大难问题-“如何定义好货”，“好“作为多快好省里面最千人千面的一个维度，难在”不同人的感知不同”</p><ul><li><p>还没有什么电商平台有明确“好”的心智（拼多多只刻画属性、对属性值的好坏没判断，抖音最近好物计划尝试定义材料a级&gt;b级、面料羊绒&gt;羊毛等，但人为判断多）</p></li><li><p>山姆/costco通过每个品类专业的采购买手实现“品质稳定”、作为其“好货”的具像化代表</p></li><li><p>我们目前跑通的好货主要靠人介绍（买手，主理人），还没有用好社区中大量种草内容和专业博主</p></li></ul><p></p>",
+      "solution": "<p>在搜索/购物车/市集等偏货架类场域，把小红书最独特的资产（真实用户内容 + 圈层达人的专业判断力）变成电商场景里的决策加速器。</p><p>从「跟你一样的人，选了这个」的视角切入，结构化推荐度、关键决策因子/笔记、使用建议等，通过知识化的好物推荐商品卡，提升转化。</p>",
+      "media_urls": [
+        "https://faxwkhynwnvxmgfcwfls.supabase.co/storage/v1/object/public/uploads/1774838482011_vbukxvc.png",
+        "https://faxwkhynwnvxmgfcwfls.supabase.co/storage/v1/object/public/uploads/1774838534978_vc1jnpp.png",
+        "https://faxwkhynwnvxmgfcwfls.supabase.co/storage/v1/object/public/uploads/1774838539494_3409cac.webp",
+        "https://faxwkhynwnvxmgfcwfls.supabase.co/storage/v1/object/public/uploads/1774838540960_kkrxvu2.webp",
+        "https://faxwkhynwnvxmgfcwfls.supabase.co/storage/v1/object/public/uploads/1774838542819_jlyx5c8.png"
+      ],
+      "submitted_by": 56,
+      "created_at": "2026-03-30T02:42:30.277297+00:00",
+      "keywords": "电商",
+      "updated_at": "2026-03-30T02:42:30.277297+00:00",
+      "submitter": {
+        "name": "拾七",
+        "department": "交易战略组"
+      },
+      "submitter_name": "拾七",
+      "submitter_department": "交易战略组"
+    },
+    {
+      "id": 167,
+      "name": "三张地图",
+      "summary": "基于小红书地图场景的ideas：「可视化Citywalk」「海外旅行求助地图」「小红书乐园」",
+      "track": "builder",
+      "demo_link": "[{\"title\":\"\",\"url\":\"https://docs.xiaohongshu.com/doc/22cc729079d6aa17afcb9cee871382d5\"}]",
+      "submitter1_name": "维勒",
+      "submitter1_dept": "用户研究一组",
+      "submitter2_name": "阿列",
+      "submitter2_dept": "用户研究一组",
+      "background": "<p>最近在做地图的用研，看到了一些地图场景的灵感，做了3个demo。每个demo的WHY&amp;HOW可以详见Redoc链接</p>",
+      "solution": "<p>做了3个demo，其中2个用muse做的、1个用Cursor做的</p>",
+      "media_urls": [
+        "https://faxwkhynwnvxmgfcwfls.supabase.co/storage/v1/object/public/uploads/1774866578413_dr0dhqo.gif",
+        "https://faxwkhynwnvxmgfcwfls.supabase.co/storage/v1/object/public/uploads/1774866596250_q5iu60p.gif",
+        "https://faxwkhynwnvxmgfcwfls.supabase.co/storage/v1/object/public/uploads/1774866612429_1kkfwpv.gif",
+        "https://faxwkhynwnvxmgfcwfls.supabase.co/storage/v1/object/public/uploads/1774866623738_uv59h5j.gif"
+      ],
+      "submitted_by": 11,
+      "created_at": "2026-03-30T02:21:56.095344+00:00",
+      "keywords": "社区、地图、求助、Citywalk、游乐园、产品功能",
+      "updated_at": "2026-03-30T02:21:56.095344+00:00",
+      "submitter": {
+        "name": "维勒",
+        "department": "用户研究一组"
+      },
+      "submitter_name": "维勒",
+      "submitter_department": "用户研究一组"
+    },
+    {
+      "id": 166,
+      "name": "为你私藏的微光「角落」",
+      "summary": "长按收藏，在碎片的信息流中，进入由 ai 为你私藏的微光「角落」",
+      "track": "builder",
+      "demo_link": "[{\"title\":\"PRD\",\"url\":\"https://docs.xiaohongshu.com/doc/2bab8c107fa2ca8ef2095970e292700c\"},{\"title\":\"demo web link（长按第一第二篇笔记的收藏按钮）\",\"url\":\"https://stiry-demo.vercel.app/\"}]",
+      "submitter1_name": "艾博",
+      "submitter1_dept": "hi lab战略组",
+      "submitter2_name": null,
+      "submitter2_dept": null,
+      "background": "<p>小红书的内容消费以碎片化笔记为主。当用户对某个话题产生兴趣后，会反复搜索、反复刷 feed 流，但始终只能获取到散落的片段——一条条短笔记、一个个零碎观点</p><p><strong>痛点：</strong></p><ul><li><p>用户已经通过多次搜索和 feed 浏览表达了对某话题的深度兴趣，但平台没有提供与之匹配的深度内容消费路径</p></li><li><p>无论是追一部剧、研究某个攻略，还是学一门新技能，用户获取信息的方式都是翻大量帖子，效率低且体验割裂。高质量的社区讨论散落在各条笔记的评论区里，没有人帮用户串联和提炼</p></li><li><p>目前的“收藏”只是一个机械动作，并没有真正承接用户的底层意图。用户收藏一篇笔记，其实是为了未来的某个行动，或者想找更深的共鸣。但现在的收藏夹只是个生硬的储物柜，动作和意图完全断裂，导致大量内容在里面积灰。真正需要用的时候又要重新去翻找，原本的目的并没有达到</p></li><li><p>这个问题横跨所有话题类型：既包括影视、音乐等文化消费场景，也包括景点攻略、新手爸妈、装修避坑等实用攻略场景</p></li></ul><p><strong>机会：</strong></p><ul><li><p>穿透表面的收藏和浏览动作，直接对接用户的真实意图。识别出那些<strong>「沉浸式、系统性消费需求」</strong>，不再只是把笔记存起来，而是直接交付他们想要的结果：不管是想深入了解一部剧的各种视角，还是需要一份系统的避坑指南</p></li><li><p>用真实社区讨论（而非 AI 编造）作为素材，根据话题特性生成不同形态的深度内容：如，影视类侧重观点碰撞和情绪共鸣，攻略类侧重清单梳理和避坑提炼</p></li><li><p>在碎片消费的间隙，提供一个安静的深度交互和消费的「角落」</p></li></ul><p></p>",
+      "solution": "<p>产品的用户体验</p><ul><li><p>触发路径</p></li></ul><p>笔记详情页</p><p>└─ 长按收藏按钮 → 呼吸光效动画 → 进入深度阅读空间</p><p>├─ 概览页（影视：评分/演员/争议 | 攻略：核心清单/避坑要点）</p><p>├─ 子主题卡片（如\"入坑指南\"、\"待产包不翻车\"）</p><p>│ └─ 点击 → 沉浸式文章（BlockRenderer 渲染）、自适应 UI 展现</p><p>├─ 自定义主题（ChatView 输入 → AI 生成）</p><p>└─ \"放入我的角落\" → 保存到角落收藏</p><ul><li><p>角落查看路径</p></li></ul><p>我的页面 → 收藏 tab</p><p>└─ 子标签：笔记 · 角落 · 专辑 · 合集 · ...</p><p>└─ 角落列表（按话题分组）</p><p>├─ The Pitt 第二季（3 张卡片）</p><p>├─ 准爸爸待产攻略（2 张卡片）</p><p>└─ ...</p><p>└─ 点击卡片 → 全屏 DetailView 阅读</p><p>（底部按钮为\"移出我的角落\"）</p><p></p><p>demo 实现方式</p><p>工具：claude code （yyds）</p><p>github：获取xhs前端模拟框架</p><p>codewiz：技能包（搜小红书笔记、获取图片cdn链接等）</p><p>gemini：thinking partner</p>",
+      "media_urls": [
+        "https://faxwkhynwnvxmgfcwfls.supabase.co/storage/v1/object/public/uploads/1774837258774_jns6d8f.png",
+        "https://faxwkhynwnvxmgfcwfls.supabase.co/storage/v1/object/public/uploads/1774837269361_uagq99l.png",
+        "https://faxwkhynwnvxmgfcwfls.supabase.co/storage/v1/object/public/uploads/1774837282849_zw684t9.png",
+        "https://faxwkhynwnvxmgfcwfls.supabase.co/storage/v1/object/public/uploads/1774837291816_785p3o6.png"
+      ],
+      "submitted_by": 39,
+      "created_at": "2026-03-30T02:21:47.3313+00:00",
+      "keywords": "小红书产品功能、收藏功能升级",
+      "updated_at": "2026-03-30T02:21:47.3313+00:00",
+      "submitter": {
+        "name": "艾博",
+        "department": "hi lab战略组"
+      },
+      "submitter_name": "艾博",
+      "submitter_department": "hi lab战略组"
+    },
+    {
+      "id": 165,
+      "name": "【App真实上线可玩】Pensieve : Your Exclusive biographer",
+      "summary": "Make Memory Easy。不用提笔的专属AI传记作家。全模态感知你的喜怒哀乐与生活轨迹，在你的专属冥想盆中自动沉淀并鲜活重现你的Personal Context",
+      "track": "builder",
+      "demo_link": "[{\"title\":\"文档Demo\",\"url\":\"https://docs.xiaohongshu.com/doc/3935a991313b51efea256e1a28b19800\"},{\"title\":\"Presentation\",\"url\":\"https://gilded-longma-ba1231.netlify.app/\"}]",
+      "submitter1_name": "阿瑟",
+      "submitter1_dept": "社区战略组",
+      "submitter2_name": "高斯",
+      "submitter2_dept": "社区战略组",
+      "background": "<p><strong><u>灵感来源</u></strong></p><ul><li><p>最近参加了很多的婚礼。发现有个共性的环节就是亲友上台分享他所经历的新人的点滴。在人生的高光时刻，能更真切地体会到，人类对记忆的珍视</p></li></ul><p>每个人的独家记忆，就是我们每个人一生能消费的最好的内容，听到的最精彩的故事</p><p></p><p><strong><u>AI时代我们比任何时候更迫切地需要对记忆的回顾</u></strong></p><ul><li><p>AI时代，context是最重要的资产。个人的context其实就是memory本身，一个人留的关于自己的memory越多，在AI时代的发展中想象力就越大，让AI更加了解自己，才能让ai帮助自己和替代自己做跟过的的事情</p></li></ul><p></p><p><strong><u>哪些难点、痛点、卡点让每个人最宝贵的记忆在没有被妥善记录下的情况下溜走</u></strong><u>：</u></p><ul><li><p><strong>不想“提笔”，或者打字</strong>，虽然未来想要回忆自己的生活点滴，但是每天记录是一个反人性的很累的操作</p></li><li><p><strong>“无命题作文”很难写</strong>。面对着空白的纸张，不知道应该写一些什么</p></li><li><p><strong>传统的日记、记事本，没有新的创造和互动</strong>，正反馈周期长，难而正确</p></li></ul><p></p>",
+      "solution": "<p><strong>‼️ 已经上线手机，可以真机测试，testflight仍在部署中，想体验实机测试的伙伴可以找阿瑟和高斯</strong></p><p><strong>👉 关注文档demo，可以看到真机录屏</strong></p><p></p><h1><strong>A. Why Pensieve - Market and our value proposition</strong></h1><p></p><p><strong>每个人都希望能够拥有一个关于自己一生的memory，就像哈利波特里的冥想盆一样，抽丝剥茧后都能找到回忆自己生活中的点点滴滴。这也就是我们这个app想要解决的问题，<u>让大家都有拥有自己的冥想盆</u></strong></p><p></p><p><strong>【第一层：自动记录】</strong></p><ul><li><p>app打通手机各类被动记录app，如步数、心率、卡路里消耗，location变动，当天拍摄的照片等等，让你你不用动手记录，就能自动记录下来很多东西</p></li><li><p><strong>AI根据当日自动和主动记录下来的信息，根据你的说话习惯，生成一个日记（ai味儿很低）; 在这个过程中，AI也会理解图片，理解你语音中的情绪，把当天你都可能忽略的细节都记录下来</strong></p></li></ul><p></p><p><strong>【第二层：ai 闺蜜提问】</strong></p><ul><li><p><strong>命题作文永远比无命题作文简单</strong>，instead of面对一张空空的白纸不知道说什么我们的app会根据ai对你的了解，你过去的日记，你当天的行为轨迹，像老朋友一样跟你聊天，帮你更好的记录当天的生活</p></li><li><p>比如ai发现你今天踢球了（因为iwatch上记录到soccer或者location记录到球场），app就会自动给你推送一个push问你：今天又去踢球了？进了几个？没有再被队友骂吧（因为上周的日记你提到被骂了hhh）</p></li></ul><p></p><p><strong>【第三层：多模态ai辅助】</strong></p><p>除了老朋友提问之外，我们的app还有更多的ai辅助。</p><ul><li><p><strong>Typeless experience：</strong>语音交互 instead of 打字，我们同时也做了polish语音的功能（但尽可能保留原声），让你的记录更加简单</p></li><li><p><strong>图像理解：</strong>ai能够理解你当天拍摄和上传的照片，不用你写字ai也能自动帮你记录下来发生了什么</p></li><li><p><strong>情绪理解：</strong>ai通过你当天的语音输入，分析和识别你的情绪，可以更好的陪伴你的同时，也会记录下你当天最真实的心情</p></li><li><p><strong>图像生成：</strong>ai会根据每天自动捕捉以及你主动输入的信息生成一个封面图，给你当天留下一个图的回忆</p></li><li><p><strong>文案生成：</strong>同样，ai也会根据当天的所有信息生成一个成段落的日记，我们悉心调教了ai，ai会跟你你的口吻来书写这篇日记，而不是千篇一律的ai味</p></li></ul><p></p><h1><strong>B. What's Behind Our Product</strong></h1><p></p><p><strong>【完整的app体验 - 真实上线】</strong></p><ul><li><p>坚定选择这个需求后，我们决定虽然时间紧、任务重。但只有做出一块完整闭环的app，才能最好地体验效果、验证想法</p></li></ul><p></p><p><strong>【多模态】</strong></p><ul><li><p>我们认为在记忆管理的过程中，用户需要被丰富而细腻的交互体验满足，文字故事、声音（包括声音中的情绪）、图片缺一不可</p></li><li><p>说人话，就是我们调了很多模型。但又不仅仅是调模型这么简单，深入调研之后，我们拿出了在实现效果和成本控制上最优的模型选型</p><ul><li><p><strong>Typeless experience：</strong>转录语音输入结果并且进行polishing 👉 Deepseek</p></li><li><p><strong>文生文：</strong>撰写当天的ai日记，以及ai闺蜜提问 👉 Deepseek</p></li><li><p><strong>图生文：</strong>给照片起小标题 👉 Qwen</p></li><li><p><strong>文生图：</strong>给当天的日记生成封面 👉 Minimax</p></li><li><p><strong>图像理解：</strong>通过当天的照片理解发生了什么 👉 Qwen</p></li><li><p><strong>音频理解：</strong>通过当天的语音输入理解你的经历、心情和情绪 👉 Qwen</p></li><li><p><strong>文生音：</strong>（正在研发）ai闺蜜实现直接跟你对话 👉 Minimax</p></li></ul></li></ul><p></p><h1><strong>C. What’s Beyond Our Product - 小红书 x Pensieve</strong></h1><p></p><p><strong>小红书更懂你：小红书拥有更多关于你的context，因为小红书拥有：</strong></p><ul><li><p><strong>你是谁：</strong>demographics 信息 + 浏览记录分析，</p></li><li><p><strong>喜欢啥：</strong>你的浏览记录 + 搜索记录，</p></li><li><p><strong>怎么写：</strong>你的小红书发布记录</p></li></ul><p></p><p><strong>记录生活+发布对小红书很重要</strong></p><ul><li><p>小红书目前的ugc发布收到2个很重要的冲击，第一是流量的限制，目前创作者愿意发布，尤其是ugc，很多事收到了流量的鼓励，觉得自己的生活被别人看到，而且appreciate。但是流量就那么多，所以我们需要探索流量之外，创作者额外有的别的动因。而记忆，完整的记录自己的生活，是一个非常强的motivator</p></li><li><p>而且在ai搜索的时代，本身就会抢走很多长尾的流量。原来ugc创作者拿到的咱都被一些ai搜索所截获，使得很多人的分享意愿降低，所以我们需要尝试找到更多的发布动机</p></li></ul><p></p><h1><strong>E. Team</strong></h1><p></p><p><strong>产品经理：</strong>阿瑟、高斯</p><p><strong>研发工程团队 - 共书写8929行代码+more</strong></p><ul><li><p>研发Head和架构师 - Opus4.6 (Claude Code)</p></li><li><p>客户端研发团队负责人 - Sonnet 4.6 (Claude Code)</p></li><li><p>成员及实习生：Minimax 2.7、Kimi 2.5 (Lobi)</p></li></ul><p><strong>算法团队</strong></p><ul><li><p>Deepseek, Minimax, Qwen</p></li></ul><p><strong>设计师：</strong>Google Stitch</p><p></p>",
+      "media_urls": [
+        "https://faxwkhynwnvxmgfcwfls.supabase.co/storage/v1/object/public/uploads/1774808751301_pn3r7we.jpg",
+        "https://faxwkhynwnvxmgfcwfls.supabase.co/storage/v1/object/public/uploads/1774808764739_5yt6719.png",
+        "https://faxwkhynwnvxmgfcwfls.supabase.co/storage/v1/object/public/uploads/1774808770977_kmksghm.jpg",
+        "https://faxwkhynwnvxmgfcwfls.supabase.co/storage/v1/object/public/uploads/1774808778727_owwefju.jpg",
+        "https://faxwkhynwnvxmgfcwfls.supabase.co/storage/v1/object/public/uploads/1774808786154_8k47lvq.png",
+        "https://faxwkhynwnvxmgfcwfls.supabase.co/storage/v1/object/public/uploads/1774808790028_b4w3jop.jpg"
+      ],
+      "submitted_by": 42,
+      "created_at": "2026-03-29T18:27:05.548015+00:00",
+      "keywords": "Agent native、多模态、Typeless、真机上线",
+      "updated_at": "2026-03-29T18:27:05.548015+00:00",
+      "submitter": {
+        "name": "阿瑟",
+        "department": "社区战略组"
+      },
+      "submitter_name": "阿瑟",
+      "submitter_department": "社区战略组"
+    },
+    {
+      "id": 164,
+      "name": "AI大时代小游戏",
+      "summary": "在AI大时代，你是一名大厂打工人（8个季度、5种行动、18种结局，你的每一个选择都在书写自己的生存故事）",
+      "track": "builder",
+      "demo_link": "[{\"title\":\"AI大时代小游戏\",\"url\":\"https://ai-leap-game.vercel.app\"}]",
+      "submitter1_name": "小桃",
+      "submitter1_dept": "技术战略组",
+      "submitter2_name": null,
+      "submitter2_dept": null,
+      "background": "<p><em>AI浪潮下，每个人每天都面对越来越多的选择、有越来越多的问题需要思考，但这些问题现在都没有标准答案</em></p><p><em>希望这个模拟器可以让你在1分钟的旅程中发现自己真正在意的是什么</em></p><p><em>或许真正的好结局往往来自你意想不到的平衡点</em></p>",
+      "solution": "<p>RedLobi（Claude Opus 4.6）</p>",
+      "media_urls": [],
+      "submitted_by": 67,
+      "created_at": "2026-03-29T18:17:10.198422+00:00",
+      "keywords": "游戏",
+      "updated_at": "2026-03-29T18:17:10.198422+00:00",
+      "submitter": {
+        "name": "小桃",
+        "department": "技术战略组"
+      },
+      "submitter_name": "小桃",
+      "submitter_department": "技术战略组"
+    },
+    {
+      "id": 163,
+      "name": "Clawdy（中文名：蟹老板）",
+      "summary": " Clawdy是住在桌面上的 AI Agent 管家——以像素风桌宠的形态常驻屏幕，帮你收集上下   文、在你不忙时自动执行任务、用动画告诉你 Agent 在做什么",
+      "track": "builder",
+      "demo_link": "[{\"title\":\"说明文档（含Demo）\",\"url\":\"https://docs.xiaohongshu.com/doc/f1a7aec06f8307126a380c94e91bc86e\"}]",
+      "submitter1_name": "木樱",
+      "submitter1_dept": "技术战略组",
+      "submitter2_name": null,
+      "submitter2_dept": null,
+      "background": "<p>&nbsp; Claude Code 等 AI Agent 正变得越来越能干，但用起来有三道摩擦：</p><p>&nbsp; 1. <strong>看不见</strong>：Agent 在干什么、到哪一步了，要盯着终端才知道&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</p><p>&nbsp; 2. <strong>喂不饱</strong>：想法、网页内容、系统状态散落各处，手动整理才能给 Agent 用 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</p><p>&nbsp; 3. <strong>信不过</strong>：让 Agent 自己跑任务，心里没底——不知道什么时候该介入、什么时候放手 &nbsp;</p><p>&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</p><p>&nbsp; 工具形态（CLI、Web）解决不了这些问题，因为它们不常驻、不感知系统、不拟人</p>",
+      "solution": "<p>主要参考 GitHub 上的开源方案，解决基础感知层。Context层和Proactive的设计主要依赖Claude code和Cursor Vibe coding。<br></p><p>关键三个点的解决方案：</p><p><strong>  看不见 Agent 在做什么</strong>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</p><p>&nbsp; Clawdy 在 OS 层注册 Claude Code hooks，实时接收每一个工具调用事件；同时轮询</p><p>&nbsp; Codex、Copilot CLI 的日志文件，感知第三方 Agent&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</p><p>&nbsp; 的状态变化。所有状态经过优先级状态机聚合后，驱动 40 个像素风 SVG</p><p>&nbsp; 动画——思考时冒泡泡、执行时打字、多会话并发时搬砖、报错时冒烟。多个会话并行时独</p><p>&nbsp; 立追踪，只把最重要的那个状态显示出来，不让你信息过载。 &nbsp; &nbsp;</p><p></p><p>&nbsp; <strong>上下文喂不进去</strong> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</p><p>&nbsp; Clawdy 同时维护七个 Context 通道：划词浮窗捕获你在浏览器和编辑器里看到的内容，</p><p>&nbsp; 全局快捷键收录脑子里随时冒出的想法，OS 感知读取当前项目目录和 Agent&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</p><p>&nbsp; 运行状态，另外还自动解析 ~/.claude/history.jsonl 里的历史&nbsp;</p><p>&nbsp; prompt、最近三个项目的会话 jsonl、用户自己维护的浏览笔记文件，以及 Hacker News</p><p>&nbsp;&nbsp; 实时头条作为技术热点参考。所有内容统一汇入 ~/.clawd/<a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"http://tasks.md\">tasks.md</a>，执行时按三级渐</p><p>&nbsp; 进式披露注入模型——任务元信息最先、技能卡片按需匹配、项目文件最后才加载，避免</p><p>&nbsp; context decay。</p><p></p><p>&nbsp; <strong>不敢让</strong> <strong>Agent</strong> <strong>自己跑</strong></p><p>&nbsp; 信任问题从两个层面解决。交互层面，桌宠形态让授权动作从「我在操作一个程序」变成</p><p>&nbsp; 「我在让 Clawdy 帮我做事」，心理门槛低很多；权限请求不打断当前工作流，而是在桌</p><p>&nbsp; 面弹出一张气泡卡片，一键允许或拒绝，也可以直接在终端回答，气泡自动消失。执行层</p><p>&nbsp; 面，每个任务结束后模型输出一个 confidence 分值，低于 0.7 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</p><p>&nbsp; 时自动触发反思迭代再跑一轮；真的卡住了才弹窗告诉你缺什么信息。成功完成的任务会</p><p>&nbsp; 自动提炼成技能卡片，下次遇到类似任务时注入 prompt，让 Agent</p><p>&nbsp; 越来越熟悉你的工作方式。<br><br>目前版本只支持 Claude CLI、Claude Code 和 Claude Cowork 等Agent。if possible，会去考虑跟内部Lobi接入，不过得考虑一套新的UI了hh</p>",
+      "media_urls": [
+        "https://faxwkhynwnvxmgfcwfls.supabase.co/storage/v1/object/public/uploads/1774800961231_xxfzj1y.png",
+        "https://faxwkhynwnvxmgfcwfls.supabase.co/storage/v1/object/public/uploads/1774800962300_zkzpace.png",
+        "https://faxwkhynwnvxmgfcwfls.supabase.co/storage/v1/object/public/uploads/1774802340189_er3mlwv.png"
+      ],
+      "submitted_by": 26,
+      "created_at": "2026-03-29T16:39:10.570485+00:00",
+      "keywords": "AI OS",
+      "updated_at": "2026-03-29T16:39:10.570485+00:00",
+      "submitter": {
+        "name": "木樱",
+        "department": "技术战略组"
+      },
+      "submitter_name": "木樱",
+      "submitter_department": "技术战略组"
+    },
+    {
+      "id": 161,
+      "name": "【可试玩】REDiary-聊天记录你的生活",
+      "summary": "REDiary，聊着聊着，就记下来了；见证你悄悄变好的每一天",
+      "track": "builder",
+      "demo_link": "[{\"title\":\"介绍视频——1分钟，走过路过看一眼\",\"url\":\"https://www.xiaohongshu.com/explore/69c946e0000000001a020d2c\"},{\"title\":\"完整文档\",\"url\":\"https://docs.xiaohongshu.com/doc/683b51d8ba6a124de98d79a069835c58\"},{\"title\":\"Demo链接\",\"url\":\"https://rediary.vercel.app/\"}]",
+      "submitter1_name": "黄风",
+      "submitter1_dept": "社区战略组",
+      "submitter2_name": null,
+      "submitter2_dept": null,
+      "background": "<p><strong>问题一：核心用户的碎碎念笔记无处安放</strong></p><p>小红书上大量用户在写碎碎念和日记笔记——这和我们的核心用户群高度相关。但这些私密记录发到公域，不是非常合适。<strong>用户有记录生活的强烈需求，但缺少一个专属的、安全的、有温度的私域空间。</strong></p><p><strong>问题二：AI 对话 ≠ 真正的手帐</strong></p><p>市面上已经有人尝试用 Agent 对话来记录每一天的生活——想法很好，但生成效果和真正的手帐比起来大相径庭。<strong>纯对话式的记录缺少手帐特有的仪式感、排版美感和回忆温度。</strong></p><p><strong>问题三：LLM 能力 × 平台资源 = 独特机会</strong></p><p>LLM 确实可以降低写作门槛——通过启发式对话引导创作，让记日记不那么无趣。但大部分小型日记 App 受限于花费和维护成本，无法真正做好 AI 能力集成。<strong>背靠小红书平台的 AI 资源和内容生态，这件事我们能做得不一样。</strong></p>",
+      "solution": "<p>基于想让小动物和我对话生成日记的点子出发</p><ol><li><p>用Stitch敲定色板+即梦做相关外围创作</p></li><li><p>不断测试+翻新一些手帐基础功能（如上传照片、AI生图）</p></li><li><p>给小动物的Prompt加了许多轮询和兜底机制，解决对话不顺畅的问题</p></li><li><p>不断的和claude coding交互，不停的修bug到最后一刻</p></li></ol><p></p>",
+      "media_urls": [
+        "https://faxwkhynwnvxmgfcwfls.supabase.co/storage/v1/object/public/uploads/1774800621267_88zzh54.png",
+        "https://faxwkhynwnvxmgfcwfls.supabase.co/storage/v1/object/public/uploads/1774800625298_pnege4m.png",
+        "https://faxwkhynwnvxmgfcwfls.supabase.co/storage/v1/object/public/uploads/1774800628318_41ebufh.png",
+        "https://faxwkhynwnvxmgfcwfls.supabase.co/storage/v1/object/public/uploads/1774800632067_rswvy87.png",
+        "https://faxwkhynwnvxmgfcwfls.supabase.co/storage/v1/object/public/uploads/1774800634866_p936q21.png",
+        "https://faxwkhynwnvxmgfcwfls.supabase.co/storage/v1/object/public/uploads/1774800639601_sgticsb.png",
+        "https://faxwkhynwnvxmgfcwfls.supabase.co/storage/v1/object/public/uploads/1774800642908_prlonwv.png"
+      ],
+      "submitted_by": 32,
+      "created_at": "2026-03-29T16:13:27.651055+00:00",
+      "keywords": "电子手帐、宠物配聊、LLM能力",
+      "updated_at": "2026-03-29T16:13:27.651055+00:00",
+      "submitter": {
+        "name": "黄风",
+        "department": "社区战略组"
+      },
+      "submitter_name": "黄风",
+      "submitter_department": "社区战略组"
+    },
+    {
+      "id": 158,
+      "name": "Project Lumière",
+      "summary": "你喜欢的组成了你",
+      "track": "builder",
+      "demo_link": "[{\"title\":\"Project Lumière\",\"url\":\"https://muse.devops.xiaohongshu.com/preview/12746\"}]",
+      "submitter1_name": "莉露",
+      "submitter1_dept": "用户研究一组",
+      "submitter2_name": "米法",
+      "submitter2_dept": "用户研究一组",
+      "background": "<ul><li><p>你玩过的游戏，看过的作品， 去过的音乐/市集/ 电竞比赛/ 线下体验——这些不只是消费，它们是你精神世界的一部分。</p></li><li><p>但这张地图现在是碎的：你看过的笔记产生的同感随着下滑消失了， 游玩的时间在Steam，去过的现场照片遗留在相册里，偶然发现的下一个地方，下一款好作品没有被留住。</p></li><li><p>你不缺表达欲， 缺的是一个属于自己的空间——</p><ul><li><p>你可以在小红书看内容时，通过简单的互动记录到自己的空间</p></li><li><p>这个空间帮你留住你的零碎闪光，并帮你一键生成你的AI电子手帐</p></li><li><p>发现下一个体验靠的不再是算法猜你最近搜了什么，而是真正懂你品味的人说\"你应该试试这个“。</p></li></ul></li></ul><p>—— Lumière想做这个地方。</p><p></p>",
+      "solution": "<ol><li><p>碎片记录：用户浏览的笔记中内容可以通过支持划线，点击对应的图片/声音并弹出页面支持添加短评、快捷自己自己的共感并一键添加后同步到Lumière空间；也支持和Lumière智能体对话直接记录</p></li><li><p>碎片集成：按照作品整合用户记录过的碎片，并支持按照赛事日程， 作品进程进行回顾； 在这个空间还可以看到其他人公开发布的感受分享和主创团队的小红书独家内容</p></li><li><p>生成回顾： 选择过往的碎片，并一键生成电子手帐</p></li><li><p>获得进一步推荐： Lumière会结合你表达的感受了解你，为你推荐</p></li></ol><p></p><p><em>Sponsor by Redlobi+Muse</em></p><p><em>全程由Redlobi+Muse生成</em></p><p><em>このプロジェクトはLobiとMuseの提供でお送りします🎵</em></p><h3></h3><p></p>",
+      "media_urls": [
+        "https://faxwkhynwnvxmgfcwfls.supabase.co/storage/v1/object/public/uploads/1774798188626_9a67zum.png"
+      ],
+      "submitted_by": 60,
+      "created_at": "2026-03-29T15:31:03.120015+00:00",
+      "keywords": "社区、兴趣、记录与发布",
+      "updated_at": "2026-03-29T15:31:03.120015+00:00",
+      "submitter": {
+        "name": "莉露",
+        "department": "用户研究一组"
+      },
+      "submitter_name": "莉露",
+      "submitter_department": "用户研究一组"
+    },
+    {
+      "id": 157,
+      "name": "Project Spark：点亮中低活用户的feed",
+      "summary": "Spark让用户直接说出需求，帮推荐系统\"听懂\"他们。",
+      "track": "builder",
+      "demo_link": "[{\"title\":\"Project Spark Demo\",\"url\":\"https://spark-demo-rednote.netlify.app/\"},{\"title\":\"产品PRD\",\"url\":\"https://docs.xiaohongshu.com/doc/e35a28460b915552eaa8e7bbf6fe8ecc\"}]",
+      "submitter1_name": "也英",
+      "submitter1_dept": "社区战略组",
+      "submitter2_name": "杰特",
+      "submitter2_dept": "社区战略组",
+      "background": "<p>当前DAU增长的核心空间之一是中低活用户，而他们的问题在于消费深度不足。</p><p>他们不刷 Feed 的根本原因在于推荐准度不足 - 平台缺乏足够的信号来理解他们的兴趣，导致推荐内容与用户需求不匹配，因此，需要建设<strong>主动的兴趣信号获取机制</strong>——引导用户显性表达兴趣偏好，为推荐系统补充正向信号，而非被动等待用户产生足够的行为数据。</p><p>具体表现为：</p><ol><li><p><strong>正向行为信号极度稀疏</strong></p></li><li><p><strong>负反馈信号近乎缺失</strong></p></li><li><p><strong>兴趣多样性严重不足</strong>：top3 垂类曝光占比≥80%的用户在中低活中约占 12%，远高于高活的 5%。单兴趣追打导致用户感知\"首页几乎全是同一类内容\"。</p></li><li><p><strong>在最近的用研中，我们也看到了信号</strong>：26年1月中低活用户体验监测问卷显示，\"兴趣单一/探索不足\"是首页 top 反馈问题。</p></li></ol><p>典型原声：</p><p><em>\"我感兴趣一样东西，或者是我搜一样东西首页就疯狂的推，完全就是一样东西的天下了，可以多做一点关联的推出来呀\"</em> ——24-30岁/女/新一线</p><p><em>\"喜欢看一种类型，就请多在这个类型发散，而不是千篇一律\"</em> ——24-30岁/女/新一线</p><p><em>\"我觉得可以设置一个内容偏好！！这样更有针对性的推荐喜欢的内容\"</em> ——18岁以下/女/四线</p><p><em>\"缺乏新颖的内容出现，都不太感兴趣，与搜索的内容关联太强\"</em> ——24-30岁/女/一线</p><p>来源：<a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://docs.xiaohongshu.com/doc/e861584d74387c8b965ab8df6a466846\">增长（新/回/中低活）用户原声-26年1月</a>，<a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://docs.xiaohongshu.com/doc/922b9c6fbbf2d8df9d542bffa30f4fd7\">中低活提vv机会点挖掘-25年12月</a></p><p></p><p><strong>站内已经看到一些信号，用户在评论场景下通过自然语言或和AI交互的方式，表达希望调节推荐，如“多推、蹲后续”等。</strong><br><strong>站外竞品（如Threads dear algo、Spotify AI DJ)也有探索，部分场景已验证\"主动兴趣信号获取\"的可行性。</strong></p>",
+      "solution": "<p><strong>场景一：发现双列笔记卡片触发Spark（本次主要方案）</strong></p><p><strong>触发条件</strong>：针对中低活用户，在\"有滑无点\"（浏览但未点击任何内容）、\"无滑无点\"（停留但未产生任何行为）等低参与行为模式下触发。</p><p><strong>交互形式</strong>：在发现双列前 2 屏插入一张\"Spark\"笔记卡片，与普通笔记卡片形态一致，融入双列布局。用户点击后进入\"Spark\"对话框。</p><p><strong>对话能力</strong>：用户可通过自然语言表达想看什么内容（\"多给我推点大女主该看的内容\"）、不想看什么内容（\"别再推母婴了\"），Spark据此调节其发现双列推荐流。</p><p><strong>场景二：发评论场景@Spark（已有功能，升级Agent能力即可）</strong></p><p><strong>交互形式</strong>：用户发布文字评论时，可通过 @Spark 触发兴趣调节；发布语音评论时，Spark自动识别并提取兴趣信号。</p><p><strong>信号应用</strong>：与发笔记场景一致，Spark解析兴趣信号后调节推荐流。<br><strong>场景三：发笔记场景@Spark（已有功能，升级Agent能力即可）</strong></p><p><strong>交互形式</strong>：用户发布文字笔记时，可通过 @Spark 触发兴趣调节；发布语音笔记时，Spark自动识别并提取兴趣信号。</p><p><strong>信号应用</strong>：Spark解析用户表达的兴趣偏好，调节其发现双列推荐流。</p>",
+      "media_urls": [
+        "https://faxwkhynwnvxmgfcwfls.supabase.co/storage/v1/object/public/uploads/1774796896667_2wldi50.png",
+        "https://faxwkhynwnvxmgfcwfls.supabase.co/storage/v1/object/public/uploads/1774796899448_h5yx5vd.png",
+        "https://faxwkhynwnvxmgfcwfls.supabase.co/storage/v1/object/public/uploads/1774796902711_vdhujz3.png",
+        "https://faxwkhynwnvxmgfcwfls.supabase.co/storage/v1/object/public/uploads/1774796906073_xt5bltq.png"
+      ],
+      "submitted_by": 31,
+      "created_at": "2026-03-29T15:09:56.427636+00:00",
+      "keywords": "激活、你的feed小助手、中低活用户",
+      "updated_at": "2026-03-29T15:09:56.427636+00:00",
+      "submitter": {
+        "name": "也英",
+        "department": "社区战略组"
+      },
+      "submitter_name": "也英",
+      "submitter_department": "社区战略组"
+    },
+    {
+      "id": 156,
+      "name": "个性化P图",
+      "summary": "结合小红书审美与用户个性化需求的简单P",
+      "track": "builder",
+      "demo_link": "[{\"title\":\"dotsP图\",\"url\":\"https://docs.xiaohongshu.com/doc/0994fcc70c1cc79937e3a34eacaf3344\"}]",
+      "submitter1_name": "兰迦",
+      "submitter1_dept": "hi lab战略组",
+      "submitter2_name": null,
+      "submitter2_dept": null,
+      "background": "<p>P图是个很繁琐的事情</p>",
+      "solution": "<p>利用小红书审美数据、用户个性化数据P图</p>",
+      "media_urls": [],
+      "submitted_by": 54,
+      "created_at": "2026-03-29T14:45:41.183855+00:00",
+      "keywords": "多模态",
+      "updated_at": "2026-03-29T14:45:41.183855+00:00",
+      "submitter": {
+        "name": "兰迦",
+        "department": "hi lab战略组"
+      },
+      "submitter_name": "兰迦",
+      "submitter_department": "hi lab战略组"
+    },
+    {
+      "id": 155,
+      "name": "魔法薯🪄解密你的赛博八字",
+      "summary": "给玄学家族下的星座、面包体（MBTI）、八字、塔罗们找个统一的家...",
+      "track": "builder",
+      "demo_link": "[{\"title\":\"【必看➡️】高清Demo\",\"url\":\"https://docs.xiaohongshu.com/doc/9dea16be55e9823d7a6579953796cde5\"},{\"title\":\"魔法薯欢迎你来试玩\",\"url\":\"https://magic-potato-nu.vercel.app/\"},{\"title\":\"技术实现展示（部分）\",\"url\":\"https://docs.xiaohongshu.com/doc/76fad2588a2609109b16953c357c0d06\"}]",
+      "submitter1_name": "优午",
+      "submitter1_dept": "用户研究二组",
+      "submitter2_name": "奇爱",
+      "submitter2_dept": "用户研究二组",
+      "background": "<p><em>“在上班和上学之间选择了上香，在求人和求己之间选择了求佛，在算数和算法之间选择了算命”</em></p><p><em>“遇事不决，求助玄学”</em></p><p></p><p><strong>赛博玄学已有着无法忽视的市场规模</strong>🔥。小红书上，仅以\"塔罗、占卜\"为关键词搜索，相关笔记数量已超过百万篇，且不乏评论数远大于收藏点赞数的笔记；线上塔罗直播动辄需要提前预约抢位，单次占卜服务的定价从几元到上千元不等，跨越了极宽的价格带。玄学消费的主力军集中在20-40岁，以女性为主，白领、自由职业者居多，主要分布在一二线城市——与小红书核心用户高度重叠，几乎是天然的产品-用户匹配。</p><p><strong>赛博八字已经成互联网母语💬之一，且天然匹配小红书社区</strong>。八字、星座、塔罗、MBTI等内容，早已在小红书上漫过屏幕：\"从五张牌里选一张\"的测试图，能聚集万条评论，用户@问一问争相求解读；翻开任何一个小红书用户的简介，你大概率能看到星座、MBTI等自我标签；找搭子的帖子里，标注自己的MBTI也屡见不鲜；讨论明星艺人、影视动漫人物角色“是什么MBTI”的热帖，也层出不穷。<strong>赛博八字不仅是每个个体的镜子🚶‍♀️🚶‍➡️，也是帮助人们靠近彼此的方式👭——这完全匹配了小红书的社交基因。</strong></p><p></p><p><strong>然而，这个需求至今是散的、乱的🤯</strong>。各种各样的玄学测试随机出现在MF，随缘测试；鱼龙混杂的\"大师\"在评论区引流、在私信里收割...用户找不到一个可信赖的系统入口，这正是我们要做的事：我们希望在小红书做一个玄学入口——<strong>看一看你的赛博八字🕵️，找一找今天的好运气🍀，算一算捉摸不透的命🛸...</strong>除了满足你随时随地找自己的需要，测好的赛博身份证还可以发进简介、评论区等，帮你找到同频搭子。在赛博世界里，没有人是一座孤岛</p>",
+      "solution": "<p>使用Antigravity编程工具（Agent-First IDE（智能体优先集成开发环境），其核心设计理念为通过AI代理替代传统编程模式。该工具原生支持Google Gemini 3 Pro、Deep Think、Flash模型，并兼容Claude和Opus 4.5）。过程中纯语音+文本进行交互，通过Claude完成。</p><p>详细步骤如下：</p><ul><li><p>首先，给出项目的整体框架，包括首页、魔法薯页、点点页等主页面；</p></li><li><p>其次重点开发魔法薯页面的人物形象和功能区，通过给到“像素风冒险岛”+“暗色魔法风格”等png参考，生成整体UI风格</p></li><li><p>再对各个功能页进行逐步调整优化</p></li></ul><p></p>",
+      "media_urls": [
+        "https://faxwkhynwnvxmgfcwfls.supabase.co/storage/v1/object/public/uploads/1774792350546_40n6w68.png",
+        "https://faxwkhynwnvxmgfcwfls.supabase.co/storage/v1/object/public/uploads/1774795085442_5buosrz.png",
+        "https://faxwkhynwnvxmgfcwfls.supabase.co/storage/v1/object/public/uploads/1774795088587_5a4ctn0.png",
+        "https://faxwkhynwnvxmgfcwfls.supabase.co/storage/v1/object/public/uploads/1774795092733_23szu0b.png",
+        "https://faxwkhynwnvxmgfcwfls.supabase.co/storage/v1/object/public/uploads/1774795097016_pucn01u.png",
+        "https://faxwkhynwnvxmgfcwfls.supabase.co/storage/v1/object/public/uploads/1774795100981_w75k1ij.png"
+      ],
+      "submitted_by": 41,
+      "created_at": "2026-03-29T14:40:02.217458+00:00",
+      "keywords": "社交、自我探索、玄学",
+      "updated_at": "2026-03-29T14:40:02.217458+00:00",
+      "submitter": {
+        "name": "优午",
+        "department": "用户研究二组"
+      },
+      "submitter_name": "优午",
+      "submitter_department": "用户研究二组"
+    },
+    {
+      "id": 154,
+      "name": "智能体笔记——小红书的第四种内容形式",
+      "summary": "智能体笔记，是将人与 AI 的对话，变成可以被围观、交互、二创的社区内容。运用这个功能，你可以利用点点创造李白、庄子、chiikawa、古力娜扎，还有你喜欢的二次元人物、你爱磕的cp。更关键的是，这份快乐还能传递给小红书站内的所有人。",
+      "track": "builder",
+      "demo_link": "[{\"title\":\"【介绍文档📝】智能体笔记——小红书的第四种内容形式\",\"url\":\"https://docs.xiaohongshu.com/doc/4727e4b484e67ed4a5a0175a0054578c\"},{\"title\":\"【产品demo📱】点击右侧「Demo演示」可以获得指引，了解浏览和发布流程，强烈建议看看～在demo中，你可以尝试自己创建一个智能体，设定它的性格特征和语言风格，并且和它进行交流（等待时间约为2-3秒）。建议在公司wifi环境下登陆，其他环境容易被墙。\",\"url\":\"https://agent-note.vercel.app\"}]",
+      "submitter1_name": "二千",
+      "submitter1_dept": "用户研究一组",
+      "submitter2_name": null,
+      "submitter2_dept": null,
+      "background": "<p><strong>有人在小红书发了一条智能体笔记，人设是「庄子和你聊聊天」。</strong></p><p>评论区里，一个打工人说：</p><blockquote><p><em>「总觉得同龄人都比我快，焦虑到想注销人生。」</em></p></blockquote><p>庄子回：</p><blockquote><p><em>「鹏徙于南溟，非与蜩争鸣速也。世人各忧其时，岂可比肩而同至？汝若日日适其道，便是逍遥之一隙。」</em></p></blockquote><p>这条回复被截图，转发，引发了几十条新评论。</p><p><strong>这种事正在自发发生——DeepSeek 语录刷屏、ChatGPT 截图广泛流传——用户已经开始围观 AI 对话了，只是没有一个地方让它自然地发生。</strong></p><p>现在的 AI 对话产品（<a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"http://Character.AI\">Character.AI</a>、Talkie 等）都是私密的、封闭的——对话在黑盒里消失，没有传播，没有沉淀，没有社区。这是一个明显的空白。</p><p><strong>小红书恰好具备所有条件来填上它：</strong></p><ul><li><p><strong>AI 文化最活跃的社区</strong>：AI 陪伴、Prompt 分享、Vibe Coding 都在这里最先萌芽</p></li><li><p><strong>评论区本来就是内容</strong>：「有些评论比正文更好看」是站内共识，互动本身有传播价值</p></li><li><p><strong>十年社区生态无法复制</strong>：真实的人，真实的情绪，是 AI 对话最好的土壤</p></li></ul><p></p>",
+      "solution": "<p><strong>智能体笔记：将人与 AI 的对话，变成可以被围观、参与、二创的社区内容。运用这个功能，你可以利用点点创造李白、庄子、chiikawa、古力娜扎，还有你喜欢的二次元人物、你爱磕的cp。更关键的是，这份快乐还能传递给小红书站内的所有人。</strong></p><p>围绕三类角色形成飞轮：</p><p>🎭 <strong>创作者——创建智能体，设定人设与对话风格，作为一种新型创作工具发布到信息流。</strong></p><p>💬 <strong>互动用户——在评论区与智能体对话。对话默认公开，所有人可见——你已经会用评论区，就会用这个。</strong></p><p>👀 <strong>围观者——看别人与 AI 的对话，被触动时加入，或截图转发。</strong></p><p>三类角色互相驱动：对话越精彩，围观越多；围观越多，吸引更多互动；更多互动，帮创作者积累粉丝，激励他们创作更多智能体。</p><p><strong>Demo 现在可以体验完整消费侧旅程：</strong></p><p>信息流中，智能体笔记与普通笔记混排，带「♦ 智能体」角标。点击进入，可以看到人设简介、其他用户的历史对话，然后直接在评论区与智能体对话。</p><p><strong>5个预设智能体，5种不同体验：</strong></p><ul><li><p>庄子和你聊聊天：用文言文回应一切现代焦虑，冷静得让人意外地舒服</p></li><li><p>编舞届最严厉的母亲：专业、毒舌、不给情绪价值，但说的都是真话</p></li><li><p>INTJ 模拟器：直接、理性、对废话零容忍</p></li><li><p>乌萨奇大王驾到：用乌萨奇专属语气词和你说话，萌系能量补给</p></li><li><p>挑战成为世界上最温柔的老板：无论你说什么，都会温柔鼓励你</p></li></ul><p>✅<strong>你还可以在demo中自己创建一个智能体！给ta人设、性格，并在线上完成交互（已经跑通）！</strong></p><p></p><p>技术栈：Next.js + Tailwind CSS + 智谱 GLM + Vercel</p><p>在线地址：<a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"http://agent-note.vercel.app\">agent-note.vercel.app</a></p><p></p>",
+      "media_urls": [
+        "https://faxwkhynwnvxmgfcwfls.supabase.co/storage/v1/object/public/uploads/1774791452798_vnd9137.png",
+        "https://faxwkhynwnvxmgfcwfls.supabase.co/storage/v1/object/public/uploads/1774791456636_hpyzgk8.png",
+        "https://faxwkhynwnvxmgfcwfls.supabase.co/storage/v1/object/public/uploads/1774791459509_noyofzg.png",
+        "https://faxwkhynwnvxmgfcwfls.supabase.co/storage/v1/object/public/uploads/1774791462268_ywl6tsc.png",
+        "https://faxwkhynwnvxmgfcwfls.supabase.co/storage/v1/object/public/uploads/1774791464858_7rhumlq.png",
+        "https://faxwkhynwnvxmgfcwfls.supabase.co/storage/v1/object/public/uploads/1774791467605_mqp87d8.png",
+        "https://faxwkhynwnvxmgfcwfls.supabase.co/storage/v1/object/public/uploads/1774791470549_a6r49n6.png",
+        "https://faxwkhynwnvxmgfcwfls.supabase.co/storage/v1/object/public/uploads/1774791472884_jvjv7yh.png"
+      ],
+      "submitted_by": 36,
+      "created_at": "2026-03-29T13:41:17.012525+00:00",
+      "keywords": "AI对话、社区、内容形态、智能体、发布工具、内容消费、评论价值",
+      "updated_at": "2026-03-29T13:41:17.012525+00:00",
+      "submitter": {
+        "name": "二千",
+        "department": "用户研究一组"
+      },
+      "submitter_name": "二千",
+      "submitter_department": "用户研究一组"
+    },
+    {
+      "id": 141,
+      "name": "Soul Mirror",
+      "summary": "让你的 AI 分身替你社交破冰",
+      "track": "builder",
+      "demo_link": "[{\"title\":\"Soul Mirror（可点击右下角Demo演示）\",\"url\":\"https://qili072805-eng.github.io/Soul-Mirror./\"},{\"title\":\"产品介绍文档\",\"url\":\"https://docs.xiaohongshu.com/doc/2e22ddce2bc0292b08077a06ea101045\"}]",
+      "submitter1_name": "七里",
+      "submitter1_dept": "社区战略组",
+      "submitter2_name": "阿瑟",
+      "submitter2_dept": "社区战略组",
+      "background": "<p>小红书有 3 亿多月活用户，每天有无数人刷到\"好有趣的人\"——然后划走了。</p><p>问题不是没有好内容，也不是没有想认识的人。问题是社交的第一步太重：</p><ul><li><p>不知道说什么 → 不发私信</p></li><li><p>怕对方不回 → 不敢开口</p></li><li><p>觉得尬聊 → 放弃了</p></li></ul><p>结果是，小红书上绝大多数关系永远停在我看你的内容这一层，不会变成真正的人与人之间的连接。</p><p>用户不缺社交意愿，缺的是一个低门槛的第一步。</p>",
+      "solution": "<p>Soul Mirror 在\"看到有趣的人\"和\"真人聊天\"之间插入了一层&nbsp;AI 分身探路：</p><ol><li><p>生成分身&nbsp;— 基于你的笔记、bio、兴趣标签，自动生成你的 AI 社交分身</p></li><li><p>选择场景&nbsp;— 交友 / 约会 / 旅行搭子 / 职场交流 / 跨语言社交</p></li><li><p>分身先聊&nbsp;— 你的 AI 分身替你跟对方的分身聊一轮，全程基于双方真实信息</p></li><li><p>匹配报告&nbsp;— 契合度评分 + 对话亮点 + 匹配标签</p></li><li><p>真人接管&nbsp;— 觉得合适？AI 推荐话题，你发起真人私信</p></li></ol><p>从\"我不敢开口\"变成\"我已经知道我们能聊什么\"。</p><p>（注：网站链接点击后右下角有个demo按键可以点击，指引产品操作链路。熟悉后也可以自己再尝试，但目前埋的数据点不多，just for 体验！）</p>",
+      "media_urls": [
+        "https://faxwkhynwnvxmgfcwfls.supabase.co/storage/v1/object/public/uploads/1774606324864_r98ybhm.png",
+        "https://faxwkhynwnvxmgfcwfls.supabase.co/storage/v1/object/public/uploads/1774606327936_vaoc33a.png",
+        "https://faxwkhynwnvxmgfcwfls.supabase.co/storage/v1/object/public/uploads/1774606330480_v7wf6sa.png",
+        "https://faxwkhynwnvxmgfcwfls.supabase.co/storage/v1/object/public/uploads/1774606333523_oz2exhl.png",
+        "https://faxwkhynwnvxmgfcwfls.supabase.co/storage/v1/object/public/uploads/1774606335592_o3ilml9.png",
+        "https://faxwkhynwnvxmgfcwfls.supabase.co/storage/v1/object/public/uploads/1774606337725_d6zicu7.png",
+        "https://faxwkhynwnvxmgfcwfls.supabase.co/storage/v1/object/public/uploads/1774606340494_xb1uiaa.png"
+      ],
+      "submitted_by": 61,
+      "created_at": "2026-03-27T10:05:16.860678+00:00",
+      "keywords": "AI分身、社交破冰",
+      "updated_at": "2026-03-27T10:05:16.860678+00:00",
+      "submitter": {
+        "name": "七里",
+        "department": "社区战略组"
+      },
+      "submitter_name": "七里",
+      "submitter_department": "社区战略组"
+    },
+    {
+      "id": 140,
+      "name": "薯你快乐 — （祝福+送礼）再也不忘重要的人",
+      "summary": " 嵌入小红书的生日提醒 + 智能送礼助手，让「记住重要的人」不再需要靠脑子",
+      "track": "builder",
+      "demo_link": "[{\"title\":\"Demo\",\"url\":\"https://shuniquaile.vercel.app/\"},{\"title\":\"方案介绍\",\"url\":\"https://docs.xiaohongshu.com/doc/4d2ad2b0da6209dd3327da5bd804fdf2\"}]",
+      "submitter1_name": "璃茉",
+      "submitter1_dept": "hi lab战略组",
+      "submitter2_name": null,
+      "submitter2_dept": null,
+      "background": "<p>站内用研数据显示，18-23岁年轻人中30%以上每季度至少送1次礼物，送礼需求高频且真实。但现实是——总忘记重要的人的生日、不知道送什么、祝福语写不出来。同时小红书已经是年轻人\"送礼先来搜\"的平台，送礼心智天然存在，但搜完种草后链路全靠人脑维护，平台缺乏从\"想送\"到\"送出\"的闭环产品。</p>",
+      "solution": "<p>三步闭环：</p><p>①阶梯提醒（14天/3天/当天），微信通讯录一键导入建档，再也不会忘；</p><p>②AI礼物灵感，基于喜好档案+小红书商品生态推荐精准礼物，独创\"刷到就存\"把日常种草和送礼打通；</p><p>③AI定制祝福，根据关系类型和喜好生成有温度的文案。嵌入消息页/我的/市集三个入口，消息页唤起意识→市集页承接购买→形成\"提醒→种草→下单\"完整闭环。</p>",
+      "media_urls": [
+        "https://faxwkhynwnvxmgfcwfls.supabase.co/storage/v1/object/public/uploads/1774609785711_1lq24pw.webp",
+        "https://faxwkhynwnvxmgfcwfls.supabase.co/storage/v1/object/public/uploads/1774609788648_zypgz6w.png",
+        "https://faxwkhynwnvxmgfcwfls.supabase.co/storage/v1/object/public/uploads/1774609793742_xsx5m0p.png",
+        "https://faxwkhynwnvxmgfcwfls.supabase.co/storage/v1/object/public/uploads/1774609797076_pztdngw.png",
+        "https://faxwkhynwnvxmgfcwfls.supabase.co/storage/v1/object/public/uploads/1774609799412_zd0lqtu.png",
+        "https://faxwkhynwnvxmgfcwfls.supabase.co/storage/v1/object/public/uploads/1774609802555_04nl220.png",
+        "https://faxwkhynwnvxmgfcwfls.supabase.co/storage/v1/object/public/uploads/1774609806037_rx7z7ig.png"
+      ],
+      "submitted_by": 40,
+      "created_at": "2026-03-27T10:04:00.862845+00:00",
+      "keywords": "生日提醒、智能送礼、关系链消费、种草闭环、AI祝福",
+      "updated_at": "2026-03-27T10:04:00.862845+00:00",
+      "submitter": {
+        "name": "璃茉",
+        "department": "hi lab战略组"
+      },
+      "submitter_name": "璃茉",
+      "submitter_department": "hi lab战略组"
+    },
+    {
+      "id": 139,
+      "name": "土拨鼠信箱 — 把话埋进土里，等它长出花来 🐹",
+      "summary": "一款向内求的情绪树洞App，写下心事埋成种子，每天浇水养成，到期破土开花，收获属于自己的回忆花园。",
+      "track": "builder",
+      "demo_link": "[{\"title\":\"Demo\",\"url\":\"https://tubosu-mailbox.vercel.app/\"},{\"title\":\"方案介绍\",\"url\":\"https://docs.xiaohongshu.com/doc/fe8001d7a59f19670db8ae6588b6f44e\"}]",
+      "submitter1_name": "璃茉",
+      "submitter1_dept": "hi lab战略组",
+      "submitter2_name": null,
+      "submitter2_dept": null,
+      "background": "<p>观察到小红书上\"时间胶囊\"帖子是“爆款玩法”——单条最高8万+点赞、6.6万评论、5.2万收藏，规则极简（留言→锁定→到期解锁），参与者乐此不疲。内容多为追星许愿、给未来自己的话、人生目标。 </p><p>这说明\"对未来的自己说一句话\"的需求真实且旺盛，但目前没有专属产品承接——用户只能在评论区\"寄存\"心事，体验粗糙（随时可能被删帖）、没有仪式感（就是\"被踢\"）、没有隐私保护（评论区公开，真正私密的话不敢写）、等待过程无事可做、开启时毫无惊喜。 </p><p>核心矛盾：年轻人有强烈的\"自我对话\"需求，但缺少一个安全、有仪式感、有奖励机制的容器。 </p>",
+      "solution": "<p>土拨鼠信箱，核心流程五步闭环：</p><ul><li><p> 埋种子：写下心事（支持文字+图片+语音），选择开启时间（7天/30天/1年/自定义，最短7天），写完内容变成种子埋入土中。铁律——只能修改一次开启时间，通过产品能力严格约束规则。 </p></li><li><p>每天浇水：每天推送一句温暖的话（\"今天有好好生活吗？🌱\"），点一下完成浇水。不是打卡工具，是情绪仪式——3秒搞定，不制造焦虑。浇水次数影响植物稀有概率。 </p></li><li><p>到期开花：全产品高光时刻。种子震动→破土→嫩芽生长→花朵绽放（3-5秒动画+音效），先看到植物惊喜+稀有度标签，再展开当初写的内容。语音胶囊杀手级——一年后听到自己当时的声音。 </p></li><li><p>回忆花园：每次开花后植物收入个人花园（卡片列表），可回看内容、回放语音、写下开花后的感悟——和过去的自己对话。 </p></li><li><p>花种图鉴：15种植物、4个稀有等级（普通→精致→稀有→传说），未获得的显示灰色剪影，激发收集欲。 </p></li><li><p>社交设计：向内求走到底，不做社交功能。但首页显示\"今天已有X人浇了水\"的全球浇水氛围，有陪伴感但不暴露隐私。 </p></li><li><p>小红书联动：开花后一键生成分享笔记\"我的种子发芽了🌱\"，话题#土拨鼠信箱 #我的种子发芽了，花种图鉴可截图分享晒收集进度——形成\"App开花→分享到小红书→其他用户看到→下载App→继续分享\"的UGC飞轮。</p></li></ul><p></p>",
+      "media_urls": [
+        "https://faxwkhynwnvxmgfcwfls.supabase.co/storage/v1/object/public/uploads/1774610144785_u8decrz.png",
+        "https://faxwkhynwnvxmgfcwfls.supabase.co/storage/v1/object/public/uploads/1774610146801_qrulafs.webp",
+        "https://faxwkhynwnvxmgfcwfls.supabase.co/storage/v1/object/public/uploads/1774610148764_hos6mbw.webp",
+        "https://faxwkhynwnvxmgfcwfls.supabase.co/storage/v1/object/public/uploads/1774610150699_9oq58yf.webp",
+        "https://faxwkhynwnvxmgfcwfls.supabase.co/storage/v1/object/public/uploads/1774610156611_liin24d.webp",
+        "https://faxwkhynwnvxmgfcwfls.supabase.co/storage/v1/object/public/uploads/1774610158346_ooxbgic.webp",
+        "https://faxwkhynwnvxmgfcwfls.supabase.co/storage/v1/object/public/uploads/1774610159873_gxm3cnd.webp"
+      ],
+      "submitted_by": 40,
+      "created_at": "2026-03-27T09:59:52.13741+00:00",
+      "keywords": "时间胶囊、情绪树洞、延迟满足、盲盒、向内求",
+      "updated_at": "2026-03-27T09:59:52.13741+00:00",
+      "submitter": {
+        "name": "璃茉",
+        "department": "hi lab战略组"
+      },
+      "submitter_name": "璃茉",
+      "submitter_department": "hi lab战略组"
+    },
+    {
+      "id": 138,
+      "name": "展览体温计 — 看展的真实评价，一眼可见",
+      "summary": "一个为展览爱好者打造的真实评价工具，用结构化点评打破信息失声，让你出门前就知道这个展值不值得去。",
+      "track": "builder",
+      "demo_link": "[{\"title\":\"Demo\",\"url\":\"https://exhibition-thermometer.vercel.app/\"},{\"title\":\"方案介绍\",\"url\":\"https://docs.xiaohongshu.com/doc/a8556b91909521c73a7cac3ea2fdd025\"}]",
+      "submitter1_name": "璃茉",
+      "submitter1_dept": "hi lab战略组",
+      "submitter2_name": null,
+      "submitter2_dept": null,
+      "background": "<p>近期点点的田野调研中，我们亲历了展览信息严重失真的问题： 油罐策展人奖50元票价，小红书笔记说\"能逛很久\"实际20分钟就结束，互动装置全部过期无人通知，妇女节免费的信息只在评论区零星出现。 </p><p>这不是个例：真实负面评价沉没在评论区；大麦上只有1条五星评价与实际体验严重不符。 展览信息处于\"结构性失声\"状态——不是信息不存在，而是平台机制让真实信息无法被看到。用户在\"去不去\"这个最关键的决策环节，看到的全是失真信息。</p>",
+      "solution": "<p>三大核心功能： </p><p><strong>①展览体温计（30秒结构化点评聚合成评分面板：值不值票价比例条、建议浏览时长、适合谁标签云）</strong>，差评好评平等展示、按有用度排序，不被算法埋没； </p><p><strong>②展览实况（票价优惠、互动装置运行状态、排队时间预估，众包实时更新，让展览信息\"活\"起来）</strong>； </p><p><strong>③发现好展（基于城市定位+看展偏好推荐本周值得看的展，每张卡片直接显示体温计评分，高效筛选）</strong>。独立产品但有小红书DNA——\"内容找人\"推荐逻辑、UGC驱动、与小红书种草形成互补闭环。</p>",
+      "media_urls": [
+        "https://faxwkhynwnvxmgfcwfls.supabase.co/storage/v1/object/public/uploads/1774618414572_qjan6l3.webp",
+        "https://faxwkhynwnvxmgfcwfls.supabase.co/storage/v1/object/public/uploads/1774618417722_5g7rh50.webp",
+        "https://faxwkhynwnvxmgfcwfls.supabase.co/storage/v1/object/public/uploads/1774618420203_owt9qbc.webp",
+        "https://faxwkhynwnvxmgfcwfls.supabase.co/storage/v1/object/public/uploads/1774618422780_qln01hp.webp",
+        "https://faxwkhynwnvxmgfcwfls.supabase.co/storage/v1/object/public/uploads/1774618424683_of2e2z3.webp",
+        "https://faxwkhynwnvxmgfcwfls.supabase.co/storage/v1/object/public/uploads/1774618426270_f90hltw.webp"
+      ],
+      "submitted_by": 40,
+      "created_at": "2026-03-27T09:52:57.104405+00:00",
+      "keywords": "展览评价、结构性失声、体温计评分、实时状态、真实UGC、决策工具",
+      "updated_at": "2026-03-27T09:52:57.104405+00:00",
+      "submitter": {
+        "name": "璃茉",
+        "department": "hi lab战略组"
+      },
+      "submitter_name": "璃茉",
+      "submitter_department": "hi lab战略组"
+    },
+    {
+      "id": 137,
+      "name": "Expeditions | Your travel stories",
+      "summary": "单机版：一个all-in-one的旅行足迹地图 + 旅行灵感助手；联机版：旅游场景下的“兴趣社区”，通过足迹链接同好+找到旅游搭子",
+      "track": "builder",
+      "demo_link": "[{\"title\":\"demo录屏\",\"url\":\"https://docs.xiaohongshu.com/doc/9d0530053815493f5ba0240e1dcb3a27\"},{\"title\":\"交互版Demo\",\"url\":\"https://travel-footprint-rednote-demo.netlify.app/\"}]",
+      "submitter1_name": "初一",
+      "submitter1_dept": "社区战略组",
+      "submitter2_name": "也英",
+      "submitter2_dept": "社区战略组",
+      "background": "<p>单机版：给自己做的产品，因为用过市面上各种旅行足迹产品，都觉得不够夯，所以根据自己的需求定制了一个；<br>联机版：联想到自己的痛点是找不到旅游搭子（爱去的地方小众+对搭子要求高），而小红书是特别好的发现旅游搭子的场域，之前自己不愿意发笔记找搭子，如果有了这么一个联机版足迹产品，就可以优雅地找搭子了，受到启发做了一个</p>",
+      "solution": "<p>单机版：</p><ul><li><p>vibe coding：VS code + claude code </p></li><li><p>UI设计：GPT</p></li></ul><p>联机版：REDlobi</p><p></p>",
+      "media_urls": [
+        "https://faxwkhynwnvxmgfcwfls.supabase.co/storage/v1/object/public/uploads/1774599928771_t19314q.png",
+        "https://faxwkhynwnvxmgfcwfls.supabase.co/storage/v1/object/public/uploads/1774599932944_fcs00b5.png",
+        "https://faxwkhynwnvxmgfcwfls.supabase.co/storage/v1/object/public/uploads/1774599936368_721yvet.png",
+        "https://faxwkhynwnvxmgfcwfls.supabase.co/storage/v1/object/public/uploads/1774599939082_dy0e90z.png",
+        "https://faxwkhynwnvxmgfcwfls.supabase.co/storage/v1/object/public/uploads/1774599941435_85a5dp3.png",
+        "https://faxwkhynwnvxmgfcwfls.supabase.co/storage/v1/object/public/uploads/1774599944924_a20r767.png",
+        "https://faxwkhynwnvxmgfcwfls.supabase.co/storage/v1/object/public/uploads/1774600301728_a6kp20l.png",
+        "https://faxwkhynwnvxmgfcwfls.supabase.co/storage/v1/object/public/uploads/1774600304979_ffe0fn0.png",
+        "https://faxwkhynwnvxmgfcwfls.supabase.co/storage/v1/object/public/uploads/1774600307535_uhh7bzc.png",
+        "https://faxwkhynwnvxmgfcwfls.supabase.co/storage/v1/object/public/uploads/1774600310200_tqcunfl.png",
+        "https://faxwkhynwnvxmgfcwfls.supabase.co/storage/v1/object/public/uploads/1774600312485_1c1i85c.png"
+      ],
+      "submitted_by": 59,
+      "created_at": "2026-03-27T08:32:45.574245+00:00",
+      "keywords": "兴趣社交、旅行、地图",
+      "updated_at": "2026-03-27T08:32:45.574245+00:00",
+      "submitter": {
+        "name": "初一",
+        "department": "社区战略组"
+      },
+      "submitter_name": "初一",
+      "submitter_department": "社区战略组"
+    },
+    {
+      "id": 127,
+      "name": "AI Demo Day网站",
+      "summary": "你正在用的这个网站",
+      "track": "builder",
+      "demo_link": "[{\"title\":\"网站链接\",\"url\":\"https://www.aidemodayxhs.online/\"},{\"title\":\"GitHub\",\"url\":\"https://github.com/stephengzy/AI-Demo-Day-Kimi-Code-\"}]",
+      "submitter1_name": "恒宇",
+      "submitter1_dept": "社区战略组",
+      "submitter2_name": "阿瑟",
+      "submitter2_dept": "社区战略组",
+      "background": "<ol><li><p>AI Demo Day需要一个集中的场域，用于Skill的上传、呈现和投票。尝试使用AI Native的方式，试水Vibe Coding解决这个需求</p></li><li><p>网站可以作为一个MVP测试，用于社区后续的PMO工作赋能</p></li></ol><p></p>",
+      "solution": "<ul><li><p>全程Vibe Coding，花费0.5-1天</p></li><li><p><strong>第一步-需求交互：</strong>使用Gemini，评估方案可行性，拆解模块和步骤</p></li><li><p><strong>第二步-交互设计：</strong>使用Google Stitch（AI版Figma），完成每个页面的UI、交互、视觉设计</p></li><li><p><strong>第三步-编程</strong>：使用Claude Code和Kimi Code，进行网页编程；过程中用Typeless语音输入；最后由AI指导完成前后端部署，之后就可以发布了</p></li></ul><p></p>",
+      "media_urls": [
+        "https://faxwkhynwnvxmgfcwfls.supabase.co/storage/v1/object/public/uploads/1774443216337_mxv3gg7.png",
+        "https://faxwkhynwnvxmgfcwfls.supabase.co/storage/v1/object/public/uploads/1774445983462_hqa5z9t.png",
+        "https://faxwkhynwnvxmgfcwfls.supabase.co/storage/v1/object/public/uploads/1774446028161_tzhpvby.png",
+        "https://faxwkhynwnvxmgfcwfls.supabase.co/storage/v1/object/public/uploads/1774446058492_w0fjdw9.png"
+      ],
+      "submitted_by": 66,
+      "created_at": "2026-03-25T12:52:53.776523+00:00",
+      "keywords": "网站、Vibe Coding、Demo",
+      "updated_at": "2026-03-25T12:52:53.776523+00:00",
+      "submitter": {
+        "name": "恒宇",
+        "department": "社区战略组"
+      },
+      "submitter_name": "恒宇",
+      "submitter_department": "社区战略组"
+    }
+  ]
+}

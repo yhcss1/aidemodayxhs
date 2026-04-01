@@ -1,0 +1,584 @@
+[
+  {
+    "project_id": 186,
+    "project_name": "The New AI-powered User Research Workflow for Investment",
+    "title": "Workflow",
+    "url": "https://docs.xiaohongshu.com/doc/4e3402828303a98ae0daac6aa7433593"
+  },
+  {
+    "project_id": 185,
+    "project_name": "AI Daily Digest - 越跑越聪明的“AI今日头条”",
+    "title": "示例：AI行业日报（3月30日）",
+    "url": "https://docs.xiaohongshu.com/doc/aaf6d0bff84b9a4fc57baa400080e736"
+  },
+  {
+    "project_id": 185,
+    "project_name": "AI Daily Digest - 越跑越聪明的“AI今日头条”",
+    "title": "Skill完整源码",
+    "url": "https://docs.xiaohongshu.com/doc/9cf82f6e7408edbc9f5b1d51cd6e7af3"
+  },
+  {
+    "project_id": 184,
+    "project_name": "【真实上线】- 【ShowAndTell】演示神器，一如面对面",
+    "title": "ShowAndTell体验实拍附安装方法",
+    "url": "https://docs.xiaohongshu.com/doc/5370764234406d286e35d58800dfd5d9"
+  },
+  {
+    "project_id": 184,
+    "project_name": "【真实上线】- 【ShowAndTell】演示神器，一如面对面",
+    "title": "已部署已上线官网",
+    "url": "https://showandtell-extension.pages.dev/.com"
+  },
+  {
+    "project_id": 184,
+    "project_name": "【真实上线】- 【ShowAndTell】演示神器，一如面对面",
+    "title": "PRD产品文档",
+    "url": "https://github.com/yelinglu610-lab/showandtell-extension/blob/main/PRD.md"
+  },
+  {
+    "project_id": 183,
+    "project_name": "Notes2Skill",
+    "title": "产出样本-退税SKILL",
+    "url": "https://docs.xiaohongshu.com/doc/6499cbc788a29e5f75dad17656f3e3d5"
+  },
+  {
+    "project_id": 182,
+    "project_name": "Skillhub——Skill 共享平台",
+    "title": "Github",
+    "url": "https://github.com/vermasatyendra234-ai/skillhub-red"
+  },
+  {
+    "project_id": 182,
+    "project_name": "Skillhub——Skill 共享平台",
+    "title": "Demo",
+    "url": "https://docs.xiaohongshu.com/doc/bd2e5856ec2d9949c031929f79e74c5c"
+  },
+  {
+    "project_id": 181,
+    "project_name": "【真实上线】- The Musican【大音乐家】，2days｜2亿token",
+    "title": "视频-演奏实拍，倾情演唱",
+    "url": "https://docs.xiaohongshu.com/doc/095442f519248bbf9ca937f4811d742d"
+  },
+  {
+    "project_id": 181,
+    "project_name": "【真实上线】- The Musican【大音乐家】，2days｜2亿token",
+    "title": "现网链接（已部署已上线，如果音频没加载请重新打开以获最佳体验）",
+    "url": "https://the-musican.pages.dev/"
+  },
+  {
+    "project_id": 181,
+    "project_name": "【真实上线】- The Musican【大音乐家】，2days｜2亿token",
+    "title": "PRD产品文档",
+    "url": "https://github.com/yelinglu610-lab/The-Musican/blob/main/backend/PRD_v7.md"
+  },
+  {
+    "project_id": 180,
+    "project_name": "麻将“作弊”器",
+    "title": "小红书视频",
+    "url": "http://xhslink.com/o/AwFkAZImq9d"
+  },
+  {
+    "project_id": 180,
+    "project_name": "麻将“作弊”器",
+    "title": "Github",
+    "url": "https://github.com/Kayden123121/chuanma-zhushou"
+  },
+  {
+    "project_id": 180,
+    "project_name": "麻将“作弊”器",
+    "title": "Reddoc - 一鹏的小项目",
+    "url": "https://docs.xiaohongshu.com/doc/94a9fdc1f707d4a47311303f55cd1045"
+  },
+  {
+    "project_id": 179,
+    "project_name": "「知己知彼」掘金罗盘+攻防雷达",
+    "title": "站内外商家控比看板",
+    "url": "https://fe-static.xhscdn.com/formula-static/aibibp/mipnni1v/index.html"
+  },
+  {
+    "project_id": 179,
+    "project_name": "「知己知彼」掘金罗盘+攻防雷达",
+    "title": "站外机会SPU看板",
+    "url": "https://fe-static.xhscdn.com/formula-static/aibibp/oiisn6rc/index.html"
+  },
+  {
+    "project_id": 178,
+    "project_name": "访谈纪要助手",
+    "title": "Lobi Skill",
+    "url": "https://docs.xiaohongshu.com/doc/3c03670a90cb1ce7bfeb0a5a49e24b53"
+  },
+  {
+    "project_id": 178,
+    "project_name": "访谈纪要助手",
+    "title": "逐字稿Example",
+    "url": "https://docs.xiaohongshu.com/doc/1fba69feaf257d55c03ff689efeabfc9"
+  },
+  {
+    "project_id": 177,
+    "project_name": "【真实上线】-【小鹿AI】，长在HI里，Watch直连agent",
+    "title": "视频【倾情加解说】",
+    "url": "https://docs.xiaohongshu.com/doc/41f35067329cd712d45955a188600e1c"
+  },
+  {
+    "project_id": 177,
+    "project_name": "【真实上线】-【小鹿AI】，长在HI里，Watch直连agent",
+    "title": "【已部署已上线】官网",
+    "url": "https://xiaolu-site.pages.dev/"
+  },
+  {
+    "project_id": 177,
+    "project_name": "【真实上线】-【小鹿AI】，长在HI里，Watch直连agent",
+    "title": "Skill直接下载",
+    "url": "https://codewiz.devops.xiaohongshu.com/hub/xiaolu-health-wealth"
+  },
+  {
+    "project_id": 177,
+    "project_name": "【真实上线】-【小鹿AI】，长在HI里，Watch直连agent",
+    "title": "Prd产品文档",
+    "url": "https://github.com/yelinglu610-lab/xiaolu-health/blob/main/docs/PRD.md"
+  },
+  {
+    "project_id": 176,
+    "project_name": "赛博秘书- 让Agent帮你管理任务",
+    "title": "SKILL.MD",
+    "url": "https://docs.xiaohongshu.com/doc/34b5c211ef8fcdd5bb4fa1d89a144a39"
+  },
+  {
+    "project_id": 176,
+    "project_name": "赛博秘书- 让Agent帮你管理任务",
+    "title": "每周Todolist【sample】",
+    "url": "https://docs.xiaohongshu.com/doc/4dc56f882dba1469a276c3b5e7307ab2"
+  },
+  {
+    "project_id": 175,
+    "project_name": "我",
+    "title": "demo",
+    "url": "https://muse.devops.xiaohongshu.com/preview/12617"
+  },
+  {
+    "project_id": 175,
+    "project_name": "我",
+    "title": "文档",
+    "url": "https://docs.xiaohongshu.com/doc/20ba66ee5e0bbcc2fd89a4851ab86d85"
+  },
+  {
+    "project_id": 174,
+    "project_name": "用户说了啥",
+    "title": "",
+    "url": "https://codewiz.devops.xiaohongshu.com/hub/voice-weekly-report"
+  },
+  {
+    "project_id": 174,
+    "project_name": "用户说了啥",
+    "title": "",
+    "url": "https://docs.xiaohongshu.com/doc/059d196b833dbca9a11b87fe86d91918"
+  },
+  {
+    "project_id": 173,
+    "project_name": "E-commerce Newsletter",
+    "title": "Lobi Skill",
+    "url": "https://codewiz.devops.xiaohongshu.com/hub/ecommerce-news "
+  },
+  {
+    "project_id": 173,
+    "project_name": "E-commerce Newsletter",
+    "title": "Newsletter示例",
+    "url": "https://aifin.xiaohongshu.com/rfphecda/aiworkbench/query/query_dashboard?dashboardId=4946DBE6C3856A2C0AF4A5A6FEE66438"
+  },
+  {
+    "project_id": 172,
+    "project_name": "ootd",
+    "title": "ootd",
+    "url": "https://github.com/showlolo-lgtm/OOTD"
+  },
+  {
+    "project_id": 171,
+    "project_name": "交易+商业化数据日报小助手",
+    "title": "",
+    "url": "https://codewiz.devops.xiaohongshu.com/hub/daily-data-memo"
+  },
+  {
+    "project_id": 170,
+    "project_name": "小红书里那个懂你的智能体伙伴",
+    "title": "demo",
+    "url": "https://muse.devops.xiaohongshu.com/preview/12600"
+  },
+  {
+    "project_id": 170,
+    "project_name": "小红书里那个懂你的智能体伙伴",
+    "title": "文档",
+    "url": "https://docs.xiaohongshu.com/doc/b4cf586ff0fab47790a5bf706ade4c5f"
+  },
+  {
+    "project_id": 169,
+    "project_name": "“懂你的好物推荐卡” ",
+    "title": "介绍/demo",
+    "url": "https://docs.xiaohongshu.com/doc/b3c1873d760dd692206250010b681941"
+  },
+  {
+    "project_id": 168,
+    "project_name": "问卷审核Skill",
+    "title": "问卷审核AI Agent自动化方案",
+    "url": "https://docs.xiaohongshu.com/doc/2bb487379db6fb7575cbf8ead775de97"
+  },
+  {
+    "project_id": 167,
+    "project_name": "三张地图",
+    "title": "",
+    "url": "https://docs.xiaohongshu.com/doc/22cc729079d6aa17afcb9cee871382d5"
+  },
+  {
+    "project_id": 166,
+    "project_name": "为你私藏的微光「角落」",
+    "title": "PRD",
+    "url": "https://docs.xiaohongshu.com/doc/2bab8c107fa2ca8ef2095970e292700c"
+  },
+  {
+    "project_id": 166,
+    "project_name": "为你私藏的微光「角落」",
+    "title": "demo web link（长按第一第二篇笔记的收藏按钮）",
+    "url": "https://stiry-demo.vercel.app/"
+  },
+  {
+    "project_id": 165,
+    "project_name": "【App真实上线可玩】Pensieve : Your Exclusive biographer",
+    "title": "文档Demo",
+    "url": "https://docs.xiaohongshu.com/doc/3935a991313b51efea256e1a28b19800"
+  },
+  {
+    "project_id": 165,
+    "project_name": "【App真实上线可玩】Pensieve : Your Exclusive biographer",
+    "title": "Presentation",
+    "url": "https://gilded-longma-ba1231.netlify.app/"
+  },
+  {
+    "project_id": 164,
+    "project_name": "AI大时代小游戏",
+    "title": "AI大时代小游戏",
+    "url": "https://ai-leap-game.vercel.app"
+  },
+  {
+    "project_id": 163,
+    "project_name": "Clawdy（中文名：蟹老板）",
+    "title": "说明文档（含Demo）",
+    "url": "https://docs.xiaohongshu.com/doc/f1a7aec06f8307126a380c94e91bc86e"
+  },
+  {
+    "project_id": 162,
+    "project_name": "AI dashboard",
+    "title": "",
+    "url": "https://wayneeesun.github.io/ai-dashboard/"
+  },
+  {
+    "project_id": 161,
+    "project_name": "【可试玩】REDiary-聊天记录你的生活",
+    "title": "介绍视频——1分钟，走过路过看一眼",
+    "url": "https://www.xiaohongshu.com/explore/69c946e0000000001a020d2c"
+  },
+  {
+    "project_id": 161,
+    "project_name": "【可试玩】REDiary-聊天记录你的生活",
+    "title": "完整文档",
+    "url": "https://docs.xiaohongshu.com/doc/683b51d8ba6a124de98d79a069835c58"
+  },
+  {
+    "project_id": 161,
+    "project_name": "【可试玩】REDiary-聊天记录你的生活",
+    "title": "Demo链接",
+    "url": "https://rediary.vercel.app/"
+  },
+  {
+    "project_id": 160,
+    "project_name": "Podcast brief",
+    "title": "Lobi写的自我介绍",
+    "url": "https://docs.xiaohongshu.com/doc/ff376f1b5105b18a760b1a074dc5d0c7"
+  },
+  {
+    "project_id": 159,
+    "project_name": "玄之又玄，众妙之门🔮",
+    "title": "【介绍文档】玄之又玄 · 综合玄学 Skill🔮",
+    "url": "https://docs.xiaohongshu.com/doc/17a680bb9c02dd8a35f1d73c5e7938a5"
+  },
+  {
+    "project_id": 159,
+    "project_name": "玄之又玄，众妙之门🔮",
+    "title": "【安装链接】codewizhub一键安装",
+    "url": "https://codewiz.devops.xiaohongshu.com/hub/xuan-zhi-you-xuan"
+  },
+  {
+    "project_id": 158,
+    "project_name": "Project Lumière",
+    "title": "Project Lumière",
+    "url": "https://muse.devops.xiaohongshu.com/preview/12746"
+  },
+  {
+    "project_id": 157,
+    "project_name": "Project Spark：点亮中低活用户的feed",
+    "title": "Project Spark Demo",
+    "url": "https://spark-demo-rednote.netlify.app/"
+  },
+  {
+    "project_id": 157,
+    "project_name": "Project Spark：点亮中低活用户的feed",
+    "title": "产品PRD",
+    "url": "https://docs.xiaohongshu.com/doc/e35a28460b915552eaa8e7bbf6fe8ecc"
+  },
+  {
+    "project_id": 156,
+    "project_name": "个性化P图",
+    "title": "dotsP图",
+    "url": "https://docs.xiaohongshu.com/doc/0994fcc70c1cc79937e3a34eacaf3344"
+  },
+  {
+    "project_id": 155,
+    "project_name": "魔法薯🪄解密你的赛博八字",
+    "title": "【必看➡️】高清Demo",
+    "url": "https://docs.xiaohongshu.com/doc/9dea16be55e9823d7a6579953796cde5"
+  },
+  {
+    "project_id": 155,
+    "project_name": "魔法薯🪄解密你的赛博八字",
+    "title": "魔法薯欢迎你来试玩",
+    "url": "https://magic-potato-nu.vercel.app/"
+  },
+  {
+    "project_id": 155,
+    "project_name": "魔法薯🪄解密你的赛博八字",
+    "title": "技术实现展示（部分）",
+    "url": "https://docs.xiaohongshu.com/doc/76fad2588a2609109b16953c357c0d06"
+  },
+  {
+    "project_id": 154,
+    "project_name": "智能体笔记——小红书的第四种内容形式",
+    "title": "【介绍文档📝】智能体笔记——小红书的第四种内容形式",
+    "url": "https://docs.xiaohongshu.com/doc/4727e4b484e67ed4a5a0175a0054578c"
+  },
+  {
+    "project_id": 154,
+    "project_name": "智能体笔记——小红书的第四种内容形式",
+    "title": "【产品demo📱】点击右侧「Demo演示」可以获得指引，了解浏览和发布流程，强烈建议看看～在demo中，你可以尝试自己创建一个智能体，设定它的性格特征和语言风格，并且和它进行交流（等待时间约为2-3秒）。建议在公司wifi环境下登陆，其他环境容易被墙。",
+    "url": "https://agent-note.vercel.app"
+  },
+  {
+    "project_id": 153,
+    "project_name": "AI research thinking partner",
+    "title": "行研报告-产出示例",
+    "url": "https://docs.xiaohongshu.com/doc/f0411d25cf5d3bd0cdcfa8a47b76e528 "
+  },
+  {
+    "project_id": 153,
+    "project_name": "AI research thinking partner",
+    "title": "Lit research-产出示例",
+    "url": "https://docs.xiaohongshu.com/doc/273656590e7bdc9a1f021215d6122daa"
+  },
+  {
+    "project_id": 152,
+    "project_name": "用研知识库LR",
+    "title": "ux-knowledge-lr",
+    "url": "https://codewiz.devops.xiaohongshu.com/hub/ux-knowledge-lr"
+  },
+  {
+    "project_id": 152,
+    "project_name": "用研知识库LR",
+    "title": "产出示例：治理审核相关LR",
+    "url": "https://docs.xiaohongshu.com/doc/6d950bdea01bf465ce614c18bdd93c91"
+  },
+  {
+    "project_id": 151,
+    "project_name": "抖音新星捕捞器",
+    "title": "",
+    "url": "http://10.40.46.133:8765/dy_rising.html"
+  },
+  {
+    "project_id": 151,
+    "project_name": "抖音新星捕捞器",
+    "title": "说明文档",
+    "url": "https://docs.xiaohongshu.com/doc/d02a8ac4da1d7bd6b786a2f24e1a17e8"
+  },
+  {
+    "project_id": 150,
+    "project_name": "小红书上的男人在做什么",
+    "title": "",
+    "url": "http://10.40.46.133:8765/male_daily.html"
+  },
+  {
+    "project_id": 150,
+    "project_name": "小红书上的男人在做什么",
+    "title": "展示文档",
+    "url": "https://docs.xiaohongshu.com/doc/8c8550917ca1099aaa13c0e3e104df9f"
+  },
+  {
+    "project_id": 149,
+    "project_name": "“财报哨兵”：战略团队的 In-House Earnings Coverage — One Bot, Hundreds of Companies",
+    "title": "",
+    "url": "https://docs.xiaohongshu.com/doc/4729c26ac54233f0f2189a3ad2ada235"
+  },
+  {
+    "project_id": 149,
+    "project_name": "“财报哨兵”：战略团队的 In-House Earnings Coverage — One Bot, Hundreds of Companies",
+    "title": "",
+    "url": "https://docs.xiaohongshu.com/doc/42fac716790ea5d19f08d62cd16d09b7"
+  },
+  {
+    "project_id": 149,
+    "project_name": "“财报哨兵”：战略团队的 In-House Earnings Coverage — One Bot, Hundreds of Companies",
+    "title": "",
+    "url": "https://docs.xiaohongshu.com/doc/fad82baaadc1a1003453a6b6d0055bcc"
+  },
+  {
+    "project_id": 149,
+    "project_name": "“财报哨兵”：战略团队的 In-House Earnings Coverage — One Bot, Hundreds of Companies",
+    "title": "",
+    "url": "https://docs.xiaohongshu.com/doc/c381da82748a28949663b72934e4cf62"
+  },
+  {
+    "project_id": 149,
+    "project_name": "“财报哨兵”：战略团队的 In-House Earnings Coverage — One Bot, Hundreds of Companies",
+    "title": "",
+    "url": "https://docs.xiaohongshu.com/doc/726a03fc5e03d4c8d96b43114f0ccb89"
+  },
+  {
+    "project_id": 148,
+    "project_name": "投研助手-电子小林虾",
+    "title": "电子小林",
+    "url": "https://lijingchang168-stack.github.io/xiaolin-ai-showcase/"
+  },
+  {
+    "project_id": 148,
+    "project_name": "投研助手-电子小林虾",
+    "title": "说明书",
+    "url": "https://docs.xiaohongshu.com/doc/b0910813ef18c4449f865403db793068"
+  },
+  {
+    "project_id": 147,
+    "project_name": "再也不想打开dayQ了",
+    "title": "",
+    "url": "https://codewiz.devops.xiaohongshu.com/hub/dayq-code-creator"
+  },
+  {
+    "project_id": 145,
+    "project_name": "用户旅程图一键生成器",
+    "title": "Demo",
+    "url": "https://journey-map-generator.vercel.app/output/dengdeng-citywalk.html"
+  },
+  {
+    "project_id": 145,
+    "project_name": "用户旅程图一键生成器",
+    "title": "Skill一键安装",
+    "url": "https://codewiz.devops.xiaohongshu.com/hub/journey-map-generator"
+  },
+  {
+    "project_id": 144,
+    "project_name": "报告图表可视化",
+    "title": "",
+    "url": "https://codewiz.devops.xiaohongshu.com/hub/xhs-chart-maker"
+  },
+  {
+    "project_id": 143,
+    "project_name": "搜索掘金searchinsights  (别名\"搜索黄金矿工\"）",
+    "title": "Demo - 纯测试数据避免敏感信息泄露）",
+    "url": "https://searchinsightsmvp.manus.space/"
+  },
+  {
+    "project_id": 143,
+    "project_name": "搜索掘金searchinsights  (别名\"搜索黄金矿工\"）",
+    "title": "Redoc",
+    "url": "https://docs.xiaohongshu.com/doc/2e428b048eff1b3654db02cdf6a3cf54"
+  },
+  {
+    "project_id": 143,
+    "project_name": "搜索掘金searchinsights  (别名\"搜索黄金矿工\"）",
+    "title": "Skill  - 更新中",
+    "url": "https://codewiz.devops.xiaohongshu.com/hub/search-insights-mvp"
+  },
+  {
+    "project_id": 142,
+    "project_name": "用户onepage制作",
+    "title": "demo网址",
+    "url": "https://vercel-deploy-eight-ivory.vercel.app/xhs-user-onepage.html"
+  },
+  {
+    "project_id": 141,
+    "project_name": "Soul Mirror",
+    "title": "Soul Mirror（可点击右下角Demo演示）",
+    "url": "https://qili072805-eng.github.io/Soul-Mirror./"
+  },
+  {
+    "project_id": 141,
+    "project_name": "Soul Mirror",
+    "title": "产品介绍文档",
+    "url": "https://docs.xiaohongshu.com/doc/2e22ddce2bc0292b08077a06ea101045"
+  },
+  {
+    "project_id": 140,
+    "project_name": "薯你快乐 — （祝福+送礼）再也不忘重要的人",
+    "title": "Demo",
+    "url": "https://shuniquaile.vercel.app/"
+  },
+  {
+    "project_id": 140,
+    "project_name": "薯你快乐 — （祝福+送礼）再也不忘重要的人",
+    "title": "方案介绍",
+    "url": "https://docs.xiaohongshu.com/doc/4d2ad2b0da6209dd3327da5bd804fdf2"
+  },
+  {
+    "project_id": 139,
+    "project_name": "土拨鼠信箱 — 把话埋进土里，等它长出花来 🐹",
+    "title": "Demo",
+    "url": "https://tubosu-mailbox.vercel.app/"
+  },
+  {
+    "project_id": 139,
+    "project_name": "土拨鼠信箱 — 把话埋进土里，等它长出花来 🐹",
+    "title": "方案介绍",
+    "url": "https://docs.xiaohongshu.com/doc/fe8001d7a59f19670db8ae6588b6f44e"
+  },
+  {
+    "project_id": 138,
+    "project_name": "展览体温计 — 看展的真实评价，一眼可见",
+    "title": "Demo",
+    "url": "https://exhibition-thermometer.vercel.app/"
+  },
+  {
+    "project_id": 138,
+    "project_name": "展览体温计 — 看展的真实评价，一眼可见",
+    "title": "方案介绍",
+    "url": "https://docs.xiaohongshu.com/doc/a8556b91909521c73a7cac3ea2fdd025"
+  },
+  {
+    "project_id": 137,
+    "project_name": "Expeditions | Your travel stories",
+    "title": "demo录屏",
+    "url": "https://docs.xiaohongshu.com/doc/9d0530053815493f5ba0240e1dcb3a27"
+  },
+  {
+    "project_id": 137,
+    "project_name": "Expeditions | Your travel stories",
+    "title": "交互版Demo",
+    "url": "https://travel-footprint-rednote-demo.netlify.app/"
+  },
+  {
+    "project_id": 136,
+    "project_name": "问卷数据处理",
+    "title": "",
+    "url": "https://docs.xiaohongshu.com/doc/8b336881d43027d8e17d31794423d3df"
+  },
+  {
+    "project_id": 130,
+    "project_name": "Interview纪要实习生 example",
+    "title": "",
+    "url": "https://docs.xiaohongshu.com/doc/dfacc5aa4e85c1d7d831df4b3ce33028"
+  },
+  {
+    "project_id": 127,
+    "project_name": "AI Demo Day网站",
+    "title": "网站链接",
+    "url": "https://www.aidemodayxhs.online/"
+  },
+  {
+    "project_id": 127,
+    "project_name": "AI Demo Day网站",
+    "title": "GitHub",
+    "url": "https://github.com/stephengzy/AI-Demo-Day-Kimi-Code-"
+  }
+]
